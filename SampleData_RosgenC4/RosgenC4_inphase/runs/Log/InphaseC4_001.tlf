@@ -1,0 +1,41 @@
+
+Build: 2016-03-AD-iSP-w64
+
+Executable: C:\Program Files\Tuflow_w64\TUFLOW_iSP_w64.exe (Copyright BMT WBM Pty Ltd)
+
+Computer Name: METRO-VH239RED
+
+Simulation Started: 2020-Oct-18 00:14
+
+
+Compiler: Intel Fortran v11.1; Single Precision; 64-bit
+
+Hazard Routines ID in TUFLOW_USER_DEFINED.dll: Default Hazard Routines
+
+No Specified Events.
+
+No Specified Scenarios.
+
+No variables defined using Set Variable ==
+
+Initialising TUFLOW Dongle Settings...
+Looking for "C:\BMT_WBM\TUFLOW_Dongle_Settings.dcf"...not found.
+
+"C:\BMT_WBM\TUFLOW_Dongle_Settings.dcf" does not exist - default settings assigned.
+Simulations Log Folder == C:\BMT_WBM\log  ! Path or URL to global simulations log folder.  Default is "C:\BMT_WBM\log"
+WIBU Retry Time == 60  ! Seconds.  Values less than 1 are set to 1.  Default = 60.
+WIBU Retry Count == 0  ! Number of times to retry for a licence at start of simulation.  Use -1 for indefinitely.  Default = 0.
+WIBU Dongles Only == OFF  ! If set to ON, searches for WIBU dongles only.  Default is OFF.
+
+
+Searching for a WIBU (Metal) Dongle...
+
+TUFLOW Engine           Not licensed or no local licences free.
+
+Searching for a SMS WIBU (Metal) Dongle...
+
+TUFLOW Engine           Not licensed or no local licences free.
+
+Searching for a CH2M WIBU (Metal) Dongle...
+
+TUFLOW Engine           Not licensed or no local licences free.

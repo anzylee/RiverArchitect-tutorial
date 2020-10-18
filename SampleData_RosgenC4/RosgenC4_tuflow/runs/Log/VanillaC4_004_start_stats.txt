@@ -1,0 +1,8 @@
+Stage                                             ,Total (s)   ,Elapsed (s) 
+Initilisation (file opened)                       ,      0.00,      0.00
+Found 2D domains                                  ,      0.18,      0.18
+Start 2D BC Array Sizes Domain_001                ,      0.20,      0.02
+End 2D BC Array Sizes Domain_001                  ,      0.22,      0.02
+Start Estry Setup s0                              ,      0.23,      0.01
+End Estry Setup s0                                ,      0.23,      0.00
+Start TUFLOW Setup s2                             ,      0.23,      0.00

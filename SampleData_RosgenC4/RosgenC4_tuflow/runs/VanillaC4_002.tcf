@@ -1,0 +1,32 @@
+Demo Model == ON
+GIS Format == SHP
+SHP projection == ..\model\gis\Projection.prj
+! Write Empty GIS Files == ..\model\gis\empty | SHP
+Solution Scheme == HPC
+Hardware == GPU
+
+Geometry Control File == ..\model\VanillaC4_002.tgc
+BC Control File == ..\model\VanillaC4_002.tbc
+BC Database == ..\bc_dbase\2d_bc_VanillaC4.csv
+Read Materials File == ..\model\VanillaC4_materials.csv  ! This provides the link between the material ID defined in the .tgc and the Manning's roughess
+Read GIS PO == ..\model\gis\2d_po_VanillaC4_P.shp  ! Monitoring point locations
+Read GIS PO ==..\model\gis\2d_po_VanillaC4_L.shp  ! Monitoring XS lines
+
+Viscosity Formulation == SMAGORINSKY
+Viscosity Coefficients == 0.5, 0.005
+SET IWL == 7.3 ! matches the downstream WSE
+Cell Wet/Dry Depth == 0.01
+
+Start Time == 0  ! Start Simulation at 0 hours
+End Time == 2  ! End Simulation at 2 hours
+Timestep == 2.5  ! Use a 2D time step that is ~1/4 of the grid size in m (10 m * 0.25 -> 2.5 s)
+
+Log Folder == Log  ! Redirects log output (eg. .tlf and _messages GIS layers to the folder "log"
+Output Folder == ..\results\002\  ! Redirects results files to TUFLOW\Results\002\
+Write Check Files == ..\check\002\  ! Specifies check files to be written to TUFLOW\check\002\
+Map Output Format == GRID XMDF  ! Output directly to GIS (grid) as well as SMS (xmdf compact) format
+Map Output Data Types == h d n V BSS dt ! Output: WSE, Depth, Manning’s n, Velocity, Bed Shear Stress, timestep
+Start Map Output == 0 ! Start map output at 0 hours
+Map Output Interval == 600  ! Output every 600 seconds (10 minutes)
+GRID Map Output Data Types == h d n V BSS dt
+Time Series Output Interval == 60 ! time interval of output at points in seconds
