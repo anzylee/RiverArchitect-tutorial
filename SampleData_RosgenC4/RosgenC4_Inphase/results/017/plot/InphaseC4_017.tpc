@@ -10,3 +10,6 @@ GIS Plot Objects == .\gis\InphaseC4_017_PLOT.csv
 
 NetCDF Time Series == NONE
 
+
+2D Point Velocity [16] == .\csv\InphaseC4_017_2d_V.csv
+2D Line Flow [8] == .\csv\InphaseC4_017_2d_Q.csv
