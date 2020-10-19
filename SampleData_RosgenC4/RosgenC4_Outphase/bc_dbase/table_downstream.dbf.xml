@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20201019</CreaDate><CreaTime>00220500</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\3D Analyst Tools.tbx\StackProfile" Date="20201019" Time="002205">StackProfile ./model/gis/2d_bc_VanillaC4_HT_L.shp ./model/grid/rpoutphasec4_dem_1m.asc .\bc_dbase\table_downstream.dbf #</Process></lineage></DataProperties></Esri></metadata>

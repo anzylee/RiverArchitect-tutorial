@@ -1,0 +1,12 @@
+Format Version == 2
+Units == METRIC
+Simulation ID == OutphaseC4_001
+Time Series Output Format == CSV 
+
+GIS Plot Layer Points == .\gis\OutphaseC4_001_PLOT_P.mif
+GIS Plot Layer Lines == .\gis\OutphaseC4_001_PLOT_L.mif
+GIS Plot Layer Regions == .\gis\OutphaseC4_001_PLOT_R.mif
+GIS Plot Objects == .\gis\OutphaseC4_001_PLOT.csv
+
+NetCDF Time Series == NONE
+
