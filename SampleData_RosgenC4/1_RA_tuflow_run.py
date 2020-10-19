@@ -103,7 +103,19 @@ for ii in range(0,Q_all.__len__()): #np.array([9,19]): # range(0,Q_all.__len__()
         writer = csv.writer(f)
         for row in bc_data_file_content:
             writer.writerow(row)
-
+"""
+    # Material
+    material_data = './model/materials.csv'
+    material_data_content = [['Material ID', 'Manning\'s n', 'Infiltration Parameters',
+                              'Land Use Hazard ID', '! Description'],
+                            [1, n],
+                            [4, n]]
+    with open(material_data, 'w', newline='') as f:
+        writer = csv.writer(f)
+        for row in material_data_content:
+            writer.writerow(row)
+    f.close()
+"""
     # Run
     #tcf_file = './runs/'+case_name+'C4_' + case_num + '.tcf'
     tcf_file = os.path.abspath("runs") + '\\'+case_name+'C4_' + case_num + '.tcf'
