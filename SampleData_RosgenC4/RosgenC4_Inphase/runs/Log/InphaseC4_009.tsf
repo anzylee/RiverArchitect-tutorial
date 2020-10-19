@@ -6,17 +6,17 @@ Hardware == GPU
 GPU Device IDs == 0 
 Computer Name == WATERLAB-DUALBO
 
-Simulation Status == RUNNING
-Simulation Time (h) == 0.
+Simulation Status == FINISHED
+Simulation Time (h) == 6.
 Simulation Start Time (h) == 0.
 Simulation End Time (h) == 6.
 
-Percentage Complete (%) == 0
-Completed Computational Steps == 0
+Percentage Complete (%) == 100
+Completed Computational Steps == 90021
 
-CPU Time (h) == 0.000981
-Clock Time (h) == 0.001667
-Approximate Clock Time Remaining (h) ==  ! Calculating...
+CPU Time (h) == 0.05587
+Clock Time (h) == 0.05833
+Approximate Clock Time Remaining (h) == 0.
 
 HPC HCN Repeated Timesteps == 0  ! HCN is High Control Numbers, eg. Courant Number exceedance
 HPC NaN Repeated Timesteps == 0  ! NaN - Not a Number means an instability occurred
@@ -27,19 +27,19 @@ CHECKs Prior to Simulation == 0
 CHECKs During Simulation == 0
 
 Volume at Start (m3) == 3562
-Volume at End (m3) == 3562
-Total Volume In (m3) == 0
-Total Volume Out (m3) == 0
+Volume at End (m3) == 11922
+Total Volume In (m3) == 194402
+Total Volume Out (m3) == 186041
 Volume Error (m3) == 0
 Volume Error (%) == 0.00  ! % of Volume In + Out
 Cumulative Mass Error [ME] (%) == 0.00
 
 Summary Output Interval (s) == 1800.
-Number Summary Values == 1
-Volume In Values [Qi]  == 0.0, 
-Volume Out Values [Qo] == 0.0, 
-Change in Volume Values [dV] == 0.0, 
-Mass Error Values [ME] (%) == 0.0, 
+Number Summary Values == 7
+Volume In Values [Qi]  == 0.0, 129600.5, 16200.0, 16200.0, 16200.0, 16200.0, 1.1
+Volume Out Values [Qo] == 0.0, 121240.1, 16200.0, 16200.0, 16200.0, 16200.0, 1.1
+Change in Volume Values [dV] == 0.0, 8360.4, -0.0, 0.0, 0.0, 0.0, 0.0
+Mass Error Values [ME] (%) == 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
 Number TUFLOW 1D Nodes == 0
 Number TUFLOW 1D Channels == 0
@@ -49,7 +49,7 @@ Total 2D Cells == 107800
 Inactive 2D Cells == 9631
 Number 2D Domains == 1
 2D Domain Cell Sizes == 1.
-2D Domain Timestep == 0.025 ! Variable
+2D Domain Timestep == 0.125 ! Variable
 
 First Start Map Output (h) == 4.
 Shortest Map Output Interval (s) == 1800.
