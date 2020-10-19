@@ -1,0 +1,15 @@
+Format Version == 2
+Units == METRIC
+Simulation ID == OutphaseC4_013
+Time Series Output Format == CSV 
+
+GIS Plot Layer Points == .\gis\OutphaseC4_013_PLOT_P.mif
+GIS Plot Layer Lines == .\gis\OutphaseC4_013_PLOT_L.mif
+GIS Plot Layer Regions == .\gis\OutphaseC4_013_PLOT_R.mif
+GIS Plot Objects == .\gis\OutphaseC4_013_PLOT.csv
+
+NetCDF Time Series == NONE
+
+
+2D Point Velocity [16] == .\csv\OutphaseC4_013_2d_V.csv
+2D Line Flow [8] == .\csv\OutphaseC4_013_2d_Q.csv

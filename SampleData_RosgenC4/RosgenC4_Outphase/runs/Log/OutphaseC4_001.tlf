@@ -989,3 +989,133 @@ ________________________________________________________________________________
 Initialising Run Time Summary == F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_001_hpc_run_stats.txt
 SIM:    0:00:00    -d  0  0    0D100%  1D  0%  2D  0%    CE  0.0%  0.0%  0.0%    Vi     0  Vo     0  dV     0
 HPC Solver at time       0.000
+SIM:    4:00:00    -d  0  0    0D  0%  1D  0%  2D100%    CE  0.0%  0.0%  0.0%    Vi 14401  Vo  4188  dV 10213
+Writing HPC Output at: 4:00:00  Clock: 0:01:51  CPU: 0:01:45
+HPC Solver at time       4.000
+SIM:    4:30:00    -d  0  0    0D  0%  1D  0%  2D100%    CE  0.0%  0.0%  0.0%    Vi  1800  Vo  1800  dV     0
+Writing HPC Output at: 4:30:00  Clock: 0:02:06  CPU: 0:01:59
+HPC Solver at time       4.500
+SIM:    5:00:00    -d  0  0    0D  0%  1D  0%  2D100%    CE  0.0%  0.0%  0.0%    Vi  1800  Vo  1800  dV     0
+Writing HPC Output at: 5:00:00  Clock: 0:02:20  CPU: 0:02:13
+HPC Solver at time       5.000
+SIM:    5:30:00    -d  0  0    0D  1%  1D  0%  2D 99%    CE  0.0%  0.0%  0.0%    Vi  1800  Vo  1800  dV     0
+Writing HPC Output at: 5:30:00  Clock: 0:02:34  CPU: 0:02:27
+HPC Solver at time       5.500
+SIM:    6:00:00    -d  0  0    0D  1%  1D  0%  2D 99%    CE  0.0%  0.0%  0.0%    Vi  1800  Vo  1800  dV     0
+Writing HPC Output at: 6:00:00  Clock: 0:02:49  CPU: 0:02:41
+HPC Solver at time       6.000
+SIM:    6:00:00    -d  0  0    0D  1%  1D  0%  2D 99%    CE  0.0%  0.0%  0.0%    Vi     0  Vo     0  dV     0
+
+________________________________________________________________________________
+CPU Time:        0:02:41  [0.0448 h]
+Clock Time:      0:02:49  [0.04694 h]
+
+Finished HPC Solution.
+
+Closing Computational Time Summary.
+
+Receiving tracked maximums from HPC Solver.
+
+Allocating 445Kb memory for temporary HPC array containing any NaN locations...
+
+Total number of NaNs (instabilities) causing a timestep correction was 0.
+
+Receiving Maximum Water Levels and Times of Peak Levels from HPC Solver...
+Finished.
+
+Receiving tracked scalar maximums...
+
+Receiving tracked vector maximums...
+
+Processing HPC PO.  Number of HPC PO times = 721 (722)
+
+Processing maximums from HPC Solver...
+
+Finished processing of HPC results.
+
+Run Finished ..... Steps completed: 6
+   Total Negative Depths: 0
+Simulation took 0.04481 CPU hours
+One hour of model time takes 0.007 CPU hours
+
+________________________________________________________________________________
+Releasing TUFLOW Licence...Done.
+Releasing 1 TUFLOW Threads...Done.
+Releasing 1 TUFLOW GPU Cards...Done.
+
+________________________________________________________________________________
+
+Writing maximums...
+
+No minimums to write.
+
+Closing map output files...
+
+Writing any PO output...
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\001\OutphaseC4_001_TS.mif
+GIS Layer assigned ID of 5
+
+Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\001\OutphaseC4_001_TS.mif]...
+
+Finished writing PO output...
+
+Closing GIS Layer 2 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\001\plot\gis\OutphaseC4_001_PLOT_P.mif]...
+
+Closing GIS Layer 3 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\001\plot\gis\OutphaseC4_001_PLOT_L.mif]...
+
+Closing GIS Layer 4 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\001\plot\gis\OutphaseC4_001_PLOT_R.mif]...
+
+Input File ............ F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\OutphaseC4_001.tcfSimulation Log File ... F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_001.tlf
+
+Closing GIS Layer 1 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_001_messages.mif]...
+
+Closing any unclosed GIS layers...
+
+Deallocating memory for 1D/2D link indexing...
+
+-------------------------------
+--    Simulation FINISHED    --
+-------------------------------
+
+                         PRIOR TO SIMULATION
+  Number of WARNINGs:    _messages layer =       2     Total =       2
+  Number of CHECKs:      _messages layer =       0     Total =       0
+
+                          DURING SIMULATION
+  Number of WARNINGs:    _messages layer =       0     Total =       0
+  Number of CHECKs:      _messages layer =       0     Total =       0
+
+
+_____________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________
+
+SIMULATION SUMMARY
+
+Input File: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\OutphaseC4_001.tcf
+Log File:   F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_001.tlf
+
+Start Time (h): 0.
+End Time (h):   6.
+CPU Time:        0:02:41  [0.04488 h]
+Clock Time:      0:02:50  [0.04722 h]
+
+Simulation FINISHED
+
+HPC HCN Repeated Timesteps: 0  ! HCN is High Control Numbers, eg. Courant Number exceedance
+HPC NaN Repeated Timesteps: 0  ! NaN - Not a Number means an instability occurred
+HPC NaN WARNING 2550: 0
+
+WARNINGs prior to simulation:     2  [0 not in _messages layer]
+WARNINGs during simulation:       0  [0 not in _messages layer]
+CHECKs prior to simulation:       0  [0 not in _messages layer]
+CHECKs during simulation:         0  [0 not in _messages layer]
+
+Volume at Start (m3):  21
+Volume at End (m3):    10234
+Total Volume In (m3):  21601
+Total Volume Out (m3): 11388
+Volume Error (m3):     0 or 0.0% of Volume In + Out
+Final Cumulative ME:   0.00%
+_____________________________________________________________________________________________________________
+
+Closing all file units...

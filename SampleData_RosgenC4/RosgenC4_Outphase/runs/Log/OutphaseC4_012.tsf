@@ -1,0 +1,55 @@
+TUFLOW Control File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\OutphaseC4_012.tcf"
+TUFLOW Log File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_012.tlf"
+TUFLOW Build == Build: 2020-01-AB-iSP-w64
+Solution Scheme == HPC
+Hardware == GPU
+GPU Device IDs == 0 
+Computer Name == WATERLAB-DUALBO
+
+Simulation Status == FINISHED
+Simulation Time (h) == 6.
+Simulation Start Time (h) == 0.
+Simulation End Time (h) == 6.
+
+Percentage Complete (%) == 100
+Completed Computational Steps == 100678
+
+CPU Time (h) == 0.06516
+Clock Time (h) == 0.06806
+Approximate Clock Time Remaining (h) == 0.
+
+HPC HCN Repeated Timesteps == 0  ! HCN is High Control Numbers, eg. Courant Number exceedance
+HPC NaN Repeated Timesteps == 0  ! NaN - Not a Number means an instability occurred
+HPC NaN WARNING 2550 == 0
+WARNINGs Prior to Simulation == 2
+WARNINGs During Simulation == 0
+CHECKs Prior to Simulation == 0
+CHECKs During Simulation == 0
+
+Volume at Start (m3) == 330
+Volume at End (m3) == 23134
+Total Volume In (m3) == 324003
+Total Volume Out (m3) == 301199
+Volume Error (m3) == 0
+Volume Error (%) == -0.00  ! % of Volume In + Out
+Cumulative Mass Error [ME] (%) == -0.00
+
+Summary Output Interval (s) == 1800.
+Number Summary Values == 7
+Volume In Values [Qi]  == 0.0, 216000.9, 27000.0, 27000.0, 27000.0, 27000.0, 1.9
+Volume Out Values [Qo] == 0.0, 193197.0, 27000.0, 27000.0, 27000.0, 27000.0, 1.9
+Change in Volume Values [dV] == 0.0, 22803.9, 0.0, -0.0, 0.0, -0.0, 0.0
+Mass Error Values [ME] (%) == 0.0, -0.0, 0.0, -0.0, 0.0, -0.0, -0.0
+
+Number TUFLOW 1D Nodes == 0
+Number TUFLOW 1D Channels == 0
+
+Active 2D Cells == 98169
+Total 2D Cells == 107800
+Inactive 2D Cells == 9631
+Number 2D Domains == 1
+2D Domain Cell Sizes == 1.
+2D Domain Timestep == 0.125 ! Variable
+
+First Start Map Output (h) == 4.
+Shortest Map Output Interval (s) == 1800.

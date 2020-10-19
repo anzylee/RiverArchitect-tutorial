@@ -1,0 +1,28 @@
+
+
+Geometry Control File  == ..\model\OutphaseC4.tgc
+BC Control File == ..\model\OutphaseC4.tbc
+BC Database == ..\bc_dbase\2d_bc_OutphaseC4_009.csv
+Read Materials File == ..\model\materials.csv     ! This provides the link between the material ID defined in the .tgc and the Manning's roughess
+Read GIS PO == ..\model\gis\2d_po_VanillaC4_P.shp     ! velocity monitoring point locations
+Read GIS PO == ..\model\gis\2d_po_VanillaC4_L.shp     ! flow monitoring xs lines
+Solution Scheme == HPC  !This command specifies that you want to run TUFLOW using the HPC solution scheme or engine.
+Hardware == GPU  !CPU is default. The hardware command instructs TUFLOW HPC to run using GPU hardware. This is typically orders of magnitude faster than on CPU.
+
+Viscosity Formulation == SMAGORINSKY
+Viscosity Coefficients == 0.5, 0.005
+SET IWL == 1001.3706618739766   ! matches the downstream WSE
+
+Start Time == 0     ! Start Simulation at 0 hours
+End Time == 6   ! End Simulation (hrs)
+Timestep == 0.25     ! Use a 2D time step that is ~1/4 of the grid size in m (10 m * 0.25 -> 2.5 s)
+
+Log Folder == Log   ! Redirects log output (eg. .tlf and _messages GIS layers to the folder log
+Output Folder == ..\results\009\     ! Redirects results files to TUFLOW\Results\RUN
+Write Check Files == ..\check\009\   ! Specifies check files to be written to TUFLOW\check\RUN
+Map Output Format == GRID XMDF  ! Output directly to GIS (grid) as well as SMS (xmdf compact) format
+Map Output Data Types == h d n V BSS    ! wse depth Manning's n velocity bed shear stress
+Start Map Output == 4   ! Start map output at 4 hours
+Map Output Interval == 1800    ! Output every 1800 seconds (30 minutes)
+GRID Map Output Data Types == h d n V BSS
+Time Series Output Interval  == 30    ! time interval of output in seconds
