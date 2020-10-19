@@ -103,12 +103,12 @@ for ii in range(0,1):
     f = open(tcf_file, "w+")
     f.write("\n" +
             # "\nUnits == US Customary" +
-            "\nGeometry Control File  == " + '.\\model\\' + case_name + 'C4.tgc' +
-            "\nBC Control File == " + '.\\model\\' + case_name + 'C4.tbc' +
-            "\nBC Database == " + '.\\bc_dbase\\2d_bc_'+case_name+'C4_'+case_num+'.csv' +
-            "\nRead Materials File == ..\\..\\model\\materials.csv" + "     ! This provides the link between the material ID defined in the .tgc and the Manning's roughess" +
-            "\nRead GIS PO == ..\\..\\model\\gis\\2d_po_VanillaC4_P.shp" + "     ! velocity monitoring point locations" +
-            "\nRead GIS PO == ..\\..\\model\\gis\\2d_po_VanillaC4_L.shp" + "     ! flow monitoring xs lines" +
+            "\nGeometry Control File  == " + '..\\model\\' + case_name + 'C4.tgc' +
+            "\nBC Control File == " + '..\\model\\' + case_name + 'C4.tbc' +
+            "\nBC Database == " + '..\\bc_dbase\\2d_bc_'+case_name+'C4_'+case_num+'.csv' +
+            "\nRead Materials File == ..\\model\\materials.csv" + "     ! This provides the link between the material ID defined in the .tgc and the Manning's roughess" +
+            "\nRead GIS PO == ..\\model\\gis\\2d_po_VanillaC4_P.shp" + "     ! velocity monitoring point locations" +
+            "\nRead GIS PO == ..\\model\\gis\\2d_po_VanillaC4_L.shp" + "     ! flow monitoring xs lines" +
             "\nSolution Scheme == HPC  !This command specifies that you want to run TUFLOW using the HPC solution scheme or engine." +
             "\nHardware == GPU  !CPU is default. The hardware command instructs TUFLOW HPC to run using GPU hardware. This is typically orders of magnitude faster than on CPU." +
             "\n" +
@@ -122,8 +122,8 @@ for ii in range(0,1):
             "\nTimestep == " + timestep + "     ! Use a 2D time step that is ~1/4 of the grid size in m (10 m * 0.25 -> 2.5 s)" +
             "\n" +
             "\nLog Folder == Log" + "   ! Redirects log output (eg. .tlf and _messages GIS layers to the folder log" +
-            "\nOutput Folder == ..\\..\\results\\" + case_num + "\\" + "     ! Redirects results files to TUFLOW\Results\RUN" +
-            "\nWrite Check Files == ..\\..\\check\\" + case_num + "\\" + "   ! Specifies check files to be written to TUFLOW\check\RUN" +
+            "\nOutput Folder == ..\\results\\" + case_num + "\\" + "     ! Redirects results files to TUFLOW\Results\RUN" +
+            "\nWrite Check Files == ..\\check\\" + case_num + "\\" + "   ! Specifies check files to be written to TUFLOW\check\RUN" +
             "\nMap Output Format == GRID XMDF" + "  ! Output directly to GIS (grid) as well as SMS (xmdf compact) format" +
             "\nMap Output Data Types == h d n V BSS" + "    ! wse depth Manning's n velocity bed shear stress" +
             "\nStart Map Output == 3   ! Start map output at 3 hours" +
