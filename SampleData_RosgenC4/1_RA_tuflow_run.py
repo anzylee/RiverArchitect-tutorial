@@ -67,9 +67,9 @@ with open(tgc_file, 'r+') as myfile:
     myfile.truncate()
 
 for ii in range(0,Q_all.__len__()+1): # range(0,Q.__len__()+1)
-    if ii < 10:
+    if ii < 9:
         case_num = '00'+str(ii+1)
-    elif ii >= 10:
+    elif ii >= 9:
         case_num = '0'+str(ii+1)
 
     # BCs

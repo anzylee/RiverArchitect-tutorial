@@ -1,0 +1,12 @@
+Format Version == 2
+Units == METRIC
+Simulation ID == InphaseC4_017
+Time Series Output Format == CSV 
+
+GIS Plot Layer Points == .\gis\InphaseC4_017_PLOT_P.mif
+GIS Plot Layer Lines == .\gis\InphaseC4_017_PLOT_L.mif
+GIS Plot Layer Regions == .\gis\InphaseC4_017_PLOT_R.mif
+GIS Plot Objects == .\gis\InphaseC4_017_PLOT.csv
+
+NetCDF Time Series == NONE
+

@@ -1,0 +1,12 @@
+!Workspace
+!Version 600
+!Charset WindowsLatin1
+!Contains GIS input layers from TUFLOW simulation InphaseC4_015
+! Non-MapInfo .tab Layer "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\model\gis\2d_bc_VanillaC4_HT_L.shp"
+! Non-MapInfo .tab Layer "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\model\gis\2d_loc_VanillaC4_L.shp"
+! Non-MapInfo .tab Layer "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\model\gis\2d_po_VanillaC4_P.shp"
+! Non-MapInfo .tab Layer "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\model\gis\2d_po_VanillaC4_L.shp"
+! Non-MapInfo .tab Layer "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\model\gis\2d_sa_VanillaC4_QT_R.shp"
+! Non-MapInfo .tab Layer "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\model\grid\rpinphasec4_dem_1m.asc"
+! XF File with associated GIS Layer "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\model\grid\xf\rpinphasec4_dem_1m.asc.d1.1m.xf4"
+! Non-MapInfo .tab Layer "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\model\gis\2d_code_VanillaC4_R.shp"
