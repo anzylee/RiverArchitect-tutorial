@@ -1,0 +1,150 @@
+Log file = F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\runs\Log\InphaseC4_021.hpc.tlf
+HPC version 2.4.0 (May  7 2020 14:07:59) - single precision - win64
+Timestep history file = F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\runs\Log\InphaseC4_021.hpc.dt.csv
+Interrogating CUDA enabled GPUs ...
+CUDA driver version = 11000
+Found 1 CUDA enabled device(s)
+Device 0, GeForce GTX 1660 Ti, has compute capability = 7.5
+Adding device 0 to list of available CUDA devices
+Hardware option = GPU
+Requested device 0 found in available device list
+Initialising model ...
+Setting units to [m s]
+Setting ny == 144
+Setting nx == 774
+Selecting spatial scheme 3
+HPC Temporal Scheme == 4: fourth order time integration
+Screen/Log Display Interval == 100
+Timestep Repeats == 10
+Solution Scheme == HPC 2nd
+NaN counting on
+Adaptive time stepping on (Control Number Factor > 0)
+Store Maximums and Minimums == ON MAXIMUMS ONLY
+Infiltration not requested
+Gridded rainfall not requested
+Hydrograph indexing requested
+Hydrograph weighting not requested
+External stress file not specified
+SRF/CWF/FLC layer requested
+Mass balance output == on
+Material IL/CL not requested
+Time Output Cutoff Depths == 0
+Cumulative rainfall (RFC) not requested
+Number plot output times == 727 (Start Time Series Output, Time Series Output Interval)
+Viscosity formulation == Smagorinsky
+Allowing for tracking of 2 scalar maximum fields
+Allowing for tracking of 1 vector maximum fields
+Time of maximimum not requested for additional map output fields
+Minimum dt output not requested
+Number of ESTRY 1D nodes == 0
+Soil Initial Loss ==  Ignore Material Impervious 
+SGS == off
+Viscosity Approach == Method B
+Boundary Approach == Method B
+Mannings Depth Approach == Method B
+SGS Infiltration Approach == Automatic
+SGS Negative RF Approach == Wetted Area
+HPC Infiltration Drying Approach == METHOD A
+Cell Wet/Dry Depth == 0.002 m
+Viscosity Coefficients == 0.5 0.005
+Cell Size == 1 x 1 m
+Start Time =    0:00:00
+Timestep == 0.025
+Control Number Factor == 1
+Timestep Minimum == 0.005 s
+SA Minimum Depth == 0.002 m
+Start Time Series Output    ==    0:00:00
+Time Series Output Interval == 30
+Boundary Viscosity Factor == 1
+Density of water == 1025 kg/m^3
+Wind/Wave Shallow Depths == 0.2 1
+Control Number Factors == 1 1 0.3
+SGS Minimum Cell Area Ratio == 0.010000
+Maximum Velocity Cutoff Depth == 0.100000
+Store maximums on
+nxInternal_[0] = 770
+nxExternal_[0] = 774
+deviceInternalOffset_[0] = 2
+deviceExternalOffset_[0] = 0
+Device 0 total GPU memory = 6144 Mb, free memory = 5033 Mb
+Required memory = 17 Mb
+Loading module kernels_nSP.ptx for thread 0 ...
+Copying constant data to GPU ...
+    ... done
+Beginning GPU memory allocations for squential device 0 ...
+    allocating nan counter ...
+    allocating z, h, u, v, a, mat, streamOrder, hy, rf, sa, nut, phi2, phi4 ...
+    allocating GPU synchronisation buffers ...
+    allocating hyetographType hyetographSource1 hyetographSource2 ...
+    allocating mnu mnv ...
+    allocating eMax, tMax ...
+    allocating scalar maximum fields ...
+    allocating vector maximum fields ...
+    allocating hyetographIndexLayer ...
+    allocating area width and form loss factor layers ...
+    allocating constant shear stress data ...
+    allocating boundary data vectors ...
+    allocating hDot, uDot, vDot, h0, u0, v0, h_, u_, v_ ...
+    ... done memory allocations
+ ... done model initialisation
+z range = 1001.062622 ... 1050.000000
+Input depth data positive (range = 0.001900 ... 2.764160)
+Copying zc zu zv zh h u v data to device 0 ...
+Number plot output points = 625
+Copying plot output data to device 0 ...
+Adding material number   1, fraction impervious = 0.0000, mannings n =  0.035
+Setting material layer ...
+Material type   1 referenced by     111456 cells
+Copying material ID layer to device 0 ...
+Setting cell area factors ...
+Copying cell area factors to device 0 ...
+Cell area factors set - minimum value was 1
+Adding scalar maximum field 0, type 0
+Adding scalar maximum field 1, type 23
+Adding vector maximum field 0, type 0
+Adding boundary level graph number     1, bc_type =  1, interpolationType = 2, nPoints =    2
+Adding hydrograph number     1, bc_type = 34, interpolationType = 2, nPoints =    2
+                              triggerIndex =   0, triggerDirection = 0, triggerValue = 0
+Setting active layer ...
+Number active cells = 98040
+Boundary level graph   1 referenced by        129 cells
+Number sealed wall cells = 13287
+Adding hydrograph index layer 1 ...
+Hydrograph     1 type 34 referenced by         44 cells
+Zero hydrograph referenced by     111412 cells
+Hydrograph     1 type 34 referenced by         44 cells
+Zero hydrograph  referenced by      97996 cells
+Hyetograph[1] (type SA_DEFAULT|SA_PROPORTION_TO_DEPTH) referenced by 0 stream cells, finding seed cell of lowest elevation ...
+ ... lowest elevation of 1004.73 found at (763, 67) for Hyetograph[1] (type SA_DEFAULT/SA_PROPORTION_TO_DEPTH)
+    allocating dataReductionBlock ...
+Copying active index layer to device 0 memory ... 
+Copying stream order to 0 ...
+Copying 1 hyetographTypes to device 0 ...
+Copying boundaryLevelGraphTypes to device 0 ...
+Copying 1 hydrograph index layers to device 0 ...
+Copying 1 material types to device 0 ... 
+Copying switches (0x07000C87) to device 0 memory ... 
+     iStep        time  maxNu  maxNc  maxNd         nWet      vol          dt    Eff
+       100     0:00:08  0.632  0.884  0.296        19427    16705       0.171  77.4%
+       200     0:00:27  0.861  0.991  0.270        20264    18567       0.190  92.3%
+       300     0:00:46  0.719  0.995  0.240        21626    20477       0.191  95.3%
+       400     0:01:05  0.693  0.995  0.238        23196    22388       0.191  96.5%
+       500     0:01:24  0.663  0.995  0.237        23948    24298       0.191  97.2%
+       600     0:01:43  0.655  0.995  0.237        24757    26209       0.191  97.6%
+Repeating step 697 due to high control numbers (1.78398 1.29094 0.870087). Reducing target timestep to 0.145298
+       700     0:02:02  0.561  0.796  0.183        25724    28107       0.151  97.9%
+Repeating step 706 due to high control numbers (1.02974 0.963699 0.465851). Reducing target timestep to 0.133473
+       800     0:02:17  0.509  0.808  0.192        26206    29653       0.155  98.0%
+       900     0:02:33  0.500  0.809  0.192        26689    31205       0.155  98.2%
+      1000     0:02:48  0.495  0.809  0.192        27292    32760       0.155  98.3%
+     iStep        time  maxNu  maxNc  maxNd         nWet      vol          dt    Eff
+      1100     0:03:04  0.469  0.813  0.185        27830    34309       0.150  98.4%
+      1200     0:03:19  0.448  0.810  0.178        28771    35780       0.147  98.5%
+      1300     0:03:33  0.437  0.812  0.177        29426    36722       0.147  98.6%
+      1400     0:03:48  0.426  0.811  0.175        29394    36862       0.147  98.7%
+      1500     0:04:03  0.426  0.816  0.177        29131    36932       0.150  98.7%
+      1600     0:04:18  0.425  0.809  0.179        28909    36966       0.152  98.7%
+      1700     0:04:33  0.428  0.818  0.181        28770    36982       0.155  98.7%
+      1800     0:04:49  0.429  0.816  0.181        28685    36959       0.155  98.8%
+      1900     0:05:04  0.433  0.819  0.181        28611    36910       0.155  98.8%
+      2000     0:05:20  0.433  0.818  0.181        28562    36868       0.155  98.9%

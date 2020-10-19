@@ -6,19 +6,19 @@ Hardware == GPU
 GPU Device IDs == 0 
 Computer Name == WATERLAB-DUALBO
 
-Simulation Status == RUNNING
-Simulation Time (h) == 0.
+Simulation Status == FINISHED
+Simulation Time (h) == 6.
 Simulation Start Time (h) == 0.
 Simulation End Time (h) == 6.
 
-Percentage Complete (%) == 0
-Completed Computational Steps == 0
+Percentage Complete (%) == 100
+Completed Computational Steps == 119465
 
-CPU Time (h) == 0.000929
-Clock Time (h) == 0.001389
-Approximate Clock Time Remaining (h) ==  ! Calculating...
+CPU Time (h) == 0.08037
+Clock Time (h) == 0.08361
+Approximate Clock Time Remaining (h) == 0.
 
-HPC HCN Repeated Timesteps == 0  ! HCN is High Control Numbers, eg. Courant Number exceedance
+HPC HCN Repeated Timesteps == 12  ! HCN is High Control Numbers, eg. Courant Number exceedance
 HPC NaN Repeated Timesteps == 0  ! NaN - Not a Number means an instability occurred
 HPC NaN WARNING 2550 == 0
 WARNINGs Prior to Simulation == 2
@@ -27,19 +27,19 @@ CHECKs Prior to Simulation == 0
 CHECKs During Simulation == 0
 
 Volume at Start (m3) == 13217
-Volume at End (m3) == 13217
-Total Volume In (m3) == 0
-Total Volume Out (m3) == 0
+Volume at End (m3) == 32203
+Total Volume In (m3) == 1728012
+Total Volume Out (m3) == 1709026
 Volume Error (m3) == 0
-Volume Error (%) == 0.00  ! % of Volume In + Out
-Cumulative Mass Error [ME] (%) == 0.00
+Volume Error (%) == -0.00  ! % of Volume In + Out
+Cumulative Mass Error [ME] (%) == -0.00
 
 Summary Output Interval (s) == 1800.
-Number Summary Values == 1
-Volume In Values [Qi]  == 0.0, 
-Volume Out Values [Qo] == 0.0, 
-Change in Volume Values [dV] == 0.0, 
-Mass Error Values [ME] (%) == 0.0, 
+Number Summary Values == 7
+Volume In Values [Qi]  == 0.0, 1152001.9, 144000.0, 144000.0, 144000.0, 144000.0, 10.0
+Volume Out Values [Qo] == 0.0, 1133016.0, 144000.0, 144000.0, 144000.0, 144000.0, 10.0
+Change in Volume Values [dV] == 0.0, 18985.8, 0.0, -0.0, -0.0, 0.0, -0.0
+Mass Error Values [ME] (%) == 0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0
 
 Number TUFLOW 1D Nodes == 0
 Number TUFLOW 1D Channels == 0
@@ -49,7 +49,7 @@ Total 2D Cells == 107800
 Inactive 2D Cells == 9631
 Number 2D Domains == 1
 2D Domain Cell Sizes == 1.
-2D Domain Timestep == 0.025 ! Variable
+2D Domain Timestep == 0.125 ! Variable
 
 First Start Map Output (h) == 4.
 Shortest Map Output Interval (s) == 1800.
