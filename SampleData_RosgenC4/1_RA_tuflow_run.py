@@ -66,7 +66,7 @@ with open(tgc_file, 'r+') as myfile:
     myfile.write(text)
     myfile.truncate()
 
-for ii in np.array([9,19]): # range(0,Q_all.__len__()+1)
+for ii in range(0,Q_all.__len__()) #np.array([9,19]): # range(0,Q_all.__len__())
     if ii < 9:
         case_num = '00'+str(ii+1)
     elif ii >= 9:
