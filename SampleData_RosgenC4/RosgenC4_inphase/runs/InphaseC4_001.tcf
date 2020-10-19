@@ -11,7 +11,7 @@ Hardware == GPU  !CPU is default. The hardware command instructs TUFLOW HPC to r
 
 Viscosity Formulation == SMAGORINSKY
 Viscosity Coefficients == 0.5, 0.005
-SET IWL == 1002.6279912497257   ! matches the downstream WSE
+SET IWL == 1002.4189940935671   ! matches the downstream WSE
 
 Start Time == 0     ! Start Simulation at 0 hours
 End Time == 6   ! End Simulation (hrs)
@@ -22,7 +22,7 @@ Output Folder == ..\results\001\     ! Redirects results files to TUFLOW\Results
 Write Check Files == ..\check\001\   ! Specifies check files to be written to TUFLOW\check\RUN
 Map Output Format == GRID XMDF  ! Output directly to GIS (grid) as well as SMS (xmdf compact) format
 Map Output Data Types == h d n V BSS    ! wse depth Manning's n velocity bed shear stress
-Start Map Output == 3   ! Start map output at 3 hours
+Start Map Output == 4   ! Start map output at 4 hours
 Map Output Interval == 1800    ! Output every 1800 seconds (30 minutes)
 GRID Map Output Data Types == h d n V BSS
 Time Series Output Interval  == 30    ! time interval of output in seconds
