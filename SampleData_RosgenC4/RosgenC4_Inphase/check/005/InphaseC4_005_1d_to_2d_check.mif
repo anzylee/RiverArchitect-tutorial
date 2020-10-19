@@ -1,0 +1,21 @@
+Version 300
+Charset "WindowsLatin1"
+Delimiter ","
+
+Columns 14
+  Lowest_ZC_2D Float
+  Z_Bed_1D Float
+  Primary_Node Char(12)
+  Secondary_Node Char(12)
+  Weight_to_P_Node Float
+  Weight_to_S_Node Float
+  Type_2D_Link Char(3)
+  Type_1D_Link Char(3)
+  Flags Char(3)
+  Domain_Name Char(12)
+  fxob Float
+  fyob Float
+  ZC_max Float
+  Use_Sec_Node Logical
+Data
+
