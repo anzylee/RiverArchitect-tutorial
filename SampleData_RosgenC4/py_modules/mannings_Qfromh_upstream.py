@@ -92,7 +92,7 @@ def mannings_Qfromh_upstream(path_up_xsect, path_terrain, water_stage, n, S0, Ex
         plt.plot([np.min(x), np.max(x)], [water_stage, water_stage], '-')
         plt.xlabel('Lateral Distance (m)')
         plt.ylabel('Elevation (m)')
-        plt.title('Cress-sectional profile at the upstream')
+        plt.title('Cross-sectional profile at the upstream')
         plt.show()
 
     return Q, A, P, R

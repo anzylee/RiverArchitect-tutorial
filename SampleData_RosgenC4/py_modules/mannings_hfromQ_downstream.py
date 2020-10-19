@@ -114,7 +114,8 @@ def mannings_hfromQ_downstream(path_down_xsect, path_terrain, Q, n, S0, Execute_
         #plt.plot([xi1, xi2], [h0, h0], '*')
         plt.xlabel('Lateral Distance (m)')
         plt.ylabel('Elevation (m)')
-        plt.title('Cress-sectional profile at the downstream')
+        plt.title('Cross-sectional profile at the downstream,\n Q='+str(round(Q))+
+                  ' m3/s, h='+str(round(h0,2))+' m')
         plt.show()
     h = h0
     print('final h = ' + str(h))

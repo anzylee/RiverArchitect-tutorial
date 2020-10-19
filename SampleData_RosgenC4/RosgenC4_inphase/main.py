@@ -4,6 +4,7 @@ import numpy as np
 import sys
 import csv
 import subprocess
+import matplotlib.pyplot as plt
 
 sys.path.append(r'../py_modules')
 from mannings_hfromQ_downstream import mannings_hfromQ_downstream
@@ -60,7 +61,7 @@ with open(tgc_file, 'r+') as myfile:
     myfile.write(text)
     myfile.truncate()
 
-for ii in range(0,1):
+for ii in range(1,6): # range(0,Q.__len__()+1)
     if ii < 10:
         case_num = '00'+str(ii+1)
     elif ii >= 10:
@@ -72,6 +73,8 @@ for ii in range(0,1):
     Q = Q_all[ii]
     h, A, P, R = mannings_hfromQ_downstream(path_down_xsect, path_terrain, Q, n, S0, 1, 1)
     down_WSE = h
+    plt.savefig('./results/'+case_num+'/'+case_name+'C4_water_stage.png')
+    plt.close(3)
 
     # Boundary condition
     bc_file = './bc_dbase/2d_bc_'+case_name+'C4_'+case_num+'.csv'
