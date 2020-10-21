@@ -1,0 +1,15 @@
+Format Version == 2
+Units == METRIC
+Simulation ID == VanillaC4_002
+Time Series Output Format == CSV 
+
+GIS Plot Layer Points == .\gis\VanillaC4_002_PLOT_P.mif
+GIS Plot Layer Lines == .\gis\VanillaC4_002_PLOT_L.mif
+GIS Plot Layer Regions == .\gis\VanillaC4_002_PLOT_R.mif
+GIS Plot Objects == .\gis\VanillaC4_002_PLOT.csv
+
+NetCDF Time Series == NONE
+
+
+2D Point Velocity [16] == .\csv\VanillaC4_002_2d_V.csv
+2D Line Flow [8] == .\csv\VanillaC4_002_2d_Q.csv
