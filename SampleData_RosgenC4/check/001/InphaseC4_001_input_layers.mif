@@ -1,9 +1,0 @@
-Version 300
-Charset "WindowsLatin1"
-Delimiter ","
-Columns 3
-  ID Integer
-  Open_ID Integer
-  Layer Char(254)
-Data
-
