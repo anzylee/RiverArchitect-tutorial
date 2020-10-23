@@ -146,6 +146,7 @@ for ii in range(0,Q_all.__len__()): #np.array([9,19]): # range(0,Q_all.__len__()
             "\nMap Output Format == GRID XMDF" + "  ! Output directly to GIS (grid) as well as SMS (xmdf compact) format" +
             "\nMap Output Data Types == h d n V BSS" + "    ! wse depth Manning's n velocity bed shear stress" +
             "\nStart Map Output == 4   ! Start map output at 4 hours" +
+            "\nGrid Output Cell Size == " + cell_size/2 +
             "\nMap Output Interval == 1800    ! Output every 1800 seconds (30 minutes)" +
             "\nGRID Map Output Data Types == h d n V BSS" +
             "\nTime Series Output Interval  == 30    ! time interval of output in seconds"
