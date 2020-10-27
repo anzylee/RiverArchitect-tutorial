@@ -1,3 +1,9 @@
+#############################################################################################
+# tuflow_run.py is an automated python script to run tuflow simulations for various flow conditions
+#   Written by Anzy Lee, Postdoctoral Scholar, Utah State University
+#   Date: 10/21/2020
+#############################################################################################
+
 import os
 import shutil as sl
 import numpy as np
@@ -10,13 +16,14 @@ sys.path.append(r'./py_modules')
 from mannings_hfromQ_downstream import mannings_hfromQ_downstream
 
 #############################################################################################
-# 1 Input variables
+# 1 Input variables: case_name, Q_all, create_folders, cell_size
 case_name = 'VanillaC4' # 'VanillaC4', 'InphaseC4', 'OutphaseC4'
-os.chdir(os.curdir+'/RosgenC4_'+case_name)
+Q_all = np.array([1,2,3,4,5,6,7,8,9,10,12,15,20,30,40,50,60,70,80,90,100])
 create_folders = 1
-
-# Input parameters
 cell_size = '1'
+
+#############################################################################################
+os.chdir(os.curdir+'/RosgenC4_'+case_name)
 timestep = str(float(cell_size) / 4)
 
 if case_name == 'VanillaC4':
@@ -29,11 +36,6 @@ elif case_name == 'OutphaseC4':
     S0 = 0.00331 # dx = 770 m, dz = 1003.3 - 1000.75
     grid_name = 'rpoutphasec4_dem_1m.asc'
 
-#Q_full = 121.46
-#Q_full = 200
-#Q_all = np.arange(5, Q_full+1, 5)
-Q_all = np.array([1,2,3,4,5,6,7,8,9,10,12,15,20,30,40,50,60,70,80,90,100])
-#Q_all = np.array([100])
 n = 0.035 # Sand bed, straight, uniform channel
 
 #############################################################################################

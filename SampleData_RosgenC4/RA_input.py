@@ -1,3 +1,9 @@
+#############################################################################################
+# RA_input.py prepares input for River Architect from tuflow simulation result files
+#   Written by Anzy Lee, Postdoctoral Scholar, Utah State University
+#   Date: 10/21/2020
+#############################################################################################
+
 import os
 import shutil as sl
 import numpy as np
@@ -7,20 +13,17 @@ import csv
 import subprocess
 import matplotlib.pyplot as plt
 
-
 #############################################################################################
-# 1 Input variables
-
+# 1 Input variables: case_name, create_folders, copy_depths_velocities, copy_terrain,
+#                    [create_dmean, dmean], Q_all
 case_name = 'OutphaseC4' # 'VanillaC4', 'InphaseC4', 'OutphaseC4'
 create_folders = 1
 copy_depths_velocities = 1
 copy_terrain = 1
 [create_dmean, dmean] = [1, 0.001] # dmean = grain size in meters, 0.001m for sand bed
-#arcpy.env.workspace = os.curdir
+Q_all = np.array([1,2,3,4,5,6,7,8,9,10,12,15,20,30,40,50,60,70,80,90,100]) # From tuflow_run.
 
 #############################################################################################
-
-Q_all = np.array([1,2,3,4,5,6,7,8,9,10,12,15,20,30,40,50,60,70,80,90,100]) # From tuflow_run.
 
 if case_name == 'VanillaC4':
     S0 = 0.00325 # dx = 770m , dz = 1004 - 1001.5
