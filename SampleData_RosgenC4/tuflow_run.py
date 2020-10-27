@@ -11,7 +11,7 @@ from mannings_hfromQ_downstream import mannings_hfromQ_downstream
 
 #############################################################################################
 # 1 Input variables
-case_name = 'Vanilla' # 'Vanilla', 'Inphase', 'Outphase'
+case_name = 'VanillaC4' # 'VanillaC4', 'InphaseC4', 'OutphaseC4'
 os.chdir(os.curdir+'/RosgenC4_'+case_name)
 create_folders = 1
 
@@ -19,13 +19,13 @@ create_folders = 1
 cell_size = '1'
 timestep = str(float(cell_size) / 4)
 
-if case_name == 'Vanilla':
+if case_name == 'VanillaC4':
     S0 = 0.00325 # dx = 770m , dz = 1004 - 1001.5
     grid_name = 'vanillaC4.asc'
-elif case_name == 'Inphase':
+elif case_name == 'InphaseC4':
     S0 = 0.00329 # dx = 770 m, dz = 1004.75 - 1002.22
     grid_name = 'rpinphasec4_dem_1m.asc'
-elif case_name == 'Outphase':
+elif case_name == 'OutphaseC4':
     S0 = 0.00331 # dx = 770 m, dz = 1003.3 - 1000.75
     grid_name = 'rpoutphasec4_dem_1m.asc'
 
@@ -52,8 +52,8 @@ if create_folders == 1:
 
 #############################################################################################
 # Model
-tbc_file = './model/' + case_name + 'C4.tbc'
-tgc_file = './model/' + case_name + 'C4.tgc'
+tbc_file = './model/' + case_name + '.tbc'
+tgc_file = './model/' + case_name + '.tgc'
 sl.copyfile('../RosgenC4_tuflow/model/VanillaC4_002.tbc', tbc_file)
 sl.copyfile('../RosgenC4_tuflow//model/VanillaC4_002.tgc', tgc_file)
 
@@ -66,11 +66,15 @@ with open(tgc_file, 'r+') as myfile:
     myfile.write(text)
     myfile.truncate()
 
+zero = ''
 for ii in range(0,Q_all.__len__()): #np.array([9,19]): # range(0,Q_all.__len__())
-    if ii < 9:
-        case_num = '00'+str(ii+1)
-    elif ii >= 9:
-        case_num = '0'+str(ii+1)
+    zero1 = ''
+    s = str(ii+1)
+    s_len = s.__len__()
+
+    for ind in range(0,3-s_len):
+        zero1 = zero1 + '0'
+    Q_num = zero1 + s
 
     # BCs
     path_down_xsect = './model/gis/2d_bc_VanillaC4_HT_L.shp'
@@ -78,16 +82,16 @@ for ii in range(0,Q_all.__len__()): #np.array([9,19]): # range(0,Q_all.__len__()
     Q = Q_all[ii]
     h, A, P, R = mannings_hfromQ_downstream(path_down_xsect, path_terrain, Q, n, S0, 1, 1)
     down_WSE = h
-    plt.savefig('./results/'+case_name+'C4_'+case_num+'_WSE.png')
+    plt.savefig('./results/'+case_name+'_'+Q_num+'_WSE.png')
     plt.close(3)
 
     # Boundary condition
-    bc_file = './bc_dbase/2d_bc_'+case_name+'C4_'+case_num+'.csv'
+    bc_file = './bc_dbase/2d_bc_'+case_name+'_'+Q_num+'.csv'
     bc_file_content = [['Name', 'Source', 'Column 1', 'Column 2'],
-                       ['RPin', case_name + 'C4_bc_data_' + case_num + '.csv', 'Time', 'RPin'],
-                       ['RPout', case_name + 'C4_bc_data_' + case_num + '.csv', 'Time', 'RPout']]
+                       ['RPin', case_name + '_bc_data_' + Q_num + '.csv', 'Time', 'RPin'],
+                       ['RPout', case_name + '_bc_data_' + Q_num + '.csv', 'Time', 'RPout']]
 
-    bc_data_file = './bc_dbase/'+case_name+'C4_bc_data_' + case_num + '.csv'
+    bc_data_file = './bc_dbase/'+case_name+'_bc_data_' + Q_num + '.csv'
     bc_data_file_content = [['Time', 'RPin', 'RPout'],
                             [0, Q, h],
                             [0.25, Q, h]]
@@ -117,14 +121,14 @@ for ii in range(0,Q_all.__len__()): #np.array([9,19]): # range(0,Q_all.__len__()
     f.close()
 
     # Run
-    tcf_file = os.path.abspath("runs") + '\\'+case_name+'C4_' + case_num + '.tcf'
+    tcf_file = os.path.abspath("runs") + '\\'+case_name+'_' + Q_num + '.tcf'
     #sl.copyfile('../RosgenC4_tuflow/runs/VanillaC4_002.tcf', tcf_file)
     f = open(tcf_file, "w+")
     f.write("\n" +
             # "\nUnits == US Customary" +
-            "\nGeometry Control File  == " + '..\\model\\' + case_name + 'C4.tgc' +
-            "\nBC Control File == " + '..\\model\\' + case_name + 'C4.tbc' +
-            "\nBC Database == " + '..\\bc_dbase\\2d_bc_'+case_name+'C4_'+case_num+'.csv' +
+            "\nGeometry Control File  == " + '..\\model\\' + case_name + '.tgc' +
+            "\nBC Control File == " + '..\\model\\' + case_name + '.tbc' +
+            "\nBC Database == " + '..\\bc_dbase\\2d_bc_'+case_name+'_'+Q_num+'.csv' +
             "\nRead Materials File == ..\\model\\materials.csv" + "     ! This provides the link between the material ID defined in the .tgc and the Manning's roughess" +
             "\nRead GIS PO == ..\\model\\gis\\2d_po_VanillaC4_P.shp" + "     ! velocity monitoring point locations" +
             "\nRead GIS PO == ..\\model\\gis\\2d_po_VanillaC4_L.shp" + "     ! flow monitoring xs lines" +
@@ -141,21 +145,21 @@ for ii in range(0,Q_all.__len__()): #np.array([9,19]): # range(0,Q_all.__len__()
             "\nTimestep == " + timestep + "     ! Use a 2D time step that is ~1/4 of the grid size in m (10 m * 0.25 -> 2.5 s)" +
             "\n" +
             "\nLog Folder == Log" + "   ! Redirects log output (eg. .tlf and _messages GIS layers to the folder log" +
-            "\nOutput Folder == ..\\results\\" + case_num + "\\" + "     ! Redirects results files to TUFLOW\Results\RUN" +
-            "\nWrite Check Files == ..\\check\\" + case_num + "\\" + "   ! Specifies check files to be written to TUFLOW\check\RUN" +
+            "\nOutput Folder == ..\\results\\" + Q_num + "\\" + "     ! Redirects results files to TUFLOW\Results\RUN" +
+            "\nWrite Check Files == ..\\check\\" + Q_num + "\\" + "   ! Specifies check files to be written to TUFLOW\check\RUN" +
             "\nMap Output Format == GRID XMDF" + "  ! Output directly to GIS (grid) as well as SMS (xmdf compact) format" +
             "\nMap Output Data Types == h d n V BSS" + "    ! wse depth Manning's n velocity bed shear stress" +
             "\nStart Map Output == 4   ! Start map output at 4 hours" +
-            "\nGrid Output Cell Size == " + cell_size/2 +
+            "\nGrid Output Cell Size == " + str(float(cell_size)/2) +
             "\nMap Output Interval == 1800    ! Output every 1800 seconds (30 minutes)" +
             "\nGRID Map Output Data Types == h d n V BSS" +
             "\nTime Series Output Interval  == 30    ! time interval of output in seconds"
             )
     f.close()
 
-    #sl.copyfile('../RosgenC4_tuflow/runs/VanillaC4_run_002_TUFLOW.bat',
-    #            './runs/'+case_name+'C4_run_'+ case_num + '_TUFLOW.bat')
-    bat_file = './runs/'+ case_name + 'C4_run_' + case_num + '_TUFLOW.bat'
+    #sl.copyfile('../RosgenC4_tuflow/runs/Vanilla_run_002_TUFLOW.bat',
+    #            './runs/'+case_name+'C4_run_'+ Q_num + '_TUFLOW.bat')
+    bat_file = './runs/'+ case_name + '_run_' + Q_num + '_TUFLOW.bat'
     f = open(bat_file, "w+")
     f.write("Set TF_Exe=\"C:\Program Files\Tuflow_w64\TUFLOW_iSP_w64.exe\"" +
             "\nSet RUN=start \"TUFLOW\" %TF_Exe%" +
@@ -166,8 +170,8 @@ for ii in range(0,Q_all.__len__()): #np.array([9,19]): # range(0,Q_all.__len__()
 
     # Run TUFLOW
     print("Running TUFLOW")
-    #subprocess.call('.\\runs\\'+case_name+'C4_run_'+ case_num + '_TUFLOW.bat')
-    bat_file = '.\\runs\\'+case_name+'C4_run_'+ case_num + '_TUFLOW.bat'
+    #subprocess.call('.\\runs\\'+case_name+'_run_'+ Q_num + '_TUFLOW.bat')
+    bat_file = '.\\runs\\'+case_name+'_run_'+ Q_num + '_TUFLOW.bat'
     p = subprocess.Popen(bat_file, shell=True, stdout=subprocess.PIPE, stdin=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, stderr = p.communicate()
-    print(case_name+'_'+case_num+" complete")
+    print(case_name+'_'+Q_num+" complete")
