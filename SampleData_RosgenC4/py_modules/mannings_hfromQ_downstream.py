@@ -59,7 +59,7 @@ def mannings_hfromQ_downstream(path_down_xsect, path_terrain, path_figure, Q, n,
     jj = 0
     J = 1
 
-    while J > tol:
+    while np.abs(J) > tol:
         ind = []
         z0 = z - h0
         for ii in range(0,z.__len__()-1):
@@ -87,23 +87,25 @@ def mannings_hfromQ_downstream(path_down_xsect, path_terrain, path_figure, Q, n,
             P = P + dP
 
         R = A/P
-        J = (1/n)*A*R**(2/3)*(S0)**(1/2) - Q
-
+        J_curr = (1/n)*A*R**(2/3)*(S0)**(1/2) - Q
 
         if jj == 0:
             h0_curr = h0
-            J_curr = J
+            J = J_curr
             h0_new = h0 + 0.01
         else:
             h0_curr = h0
-            J_curr = J
+            J = J_curr
             dJdh = (J_curr-J_pre)/(h0_curr-h0_pre)
             h0_new = h0_curr-(J_curr)/dJdh
+
+            if h0_new > np.max(z):
+                print('Calculated WSE is higher than the maximum bed elevation. Abort')
+                os.abort()
 
         h0 = h0_new
         h0_pre = h0_curr
         J_pre = J_curr
-        jj = jj + 1
 
     print('error =  ', str(J))
     if figure_xsect == 1:
