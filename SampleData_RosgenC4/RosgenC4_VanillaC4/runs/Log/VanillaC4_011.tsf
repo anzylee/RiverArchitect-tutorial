@@ -1,5 +1,5 @@
-TUFLOW Control File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Vanilla\runs\VanillaC4_011.tcf"
-TUFLOW Log File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Vanilla\runs\Log\VanillaC4_011.tlf"
+TUFLOW Control File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_VanillaC4\runs\VanillaC4_011.tcf"
+TUFLOW Log File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_VanillaC4\runs\Log\VanillaC4_011.tlf"
 TUFLOW Build == Build: 2020-01-AB-iSP-w64
 Solution Scheme == HPC
 Hardware == GPU
@@ -12,10 +12,10 @@ Simulation Start Time (h) == 0.
 Simulation End Time (h) == 6.
 
 Percentage Complete (%) == 100
-Completed Computational Steps == 63472
+Completed Computational Steps == 63595
 
-CPU Time (h) == 0.03774
-Clock Time (h) == 0.03972
+CPU Time (h) == 0.0373
+Clock Time (h) == 0.03944
 Approximate Clock Time Remaining (h) == 0.
 
 HPC HCN Repeated Timesteps == 7  ! HCN is High Control Numbers, eg. Courant Number exceedance
@@ -27,19 +27,19 @@ CHECKs Prior to Simulation == 0
 CHECKs During Simulation == 0
 
 Volume at Start (m3) == 1025
-Volume at End (m3) == 8610
+Volume at End (m3) == 8621
 Total Volume In (m3) == 259202
-Total Volume Out (m3) == 251618
+Total Volume Out (m3) == 251606
 Volume Error (m3) == 0
-Volume Error (%) == 0.00  ! % of Volume In + Out
-Cumulative Mass Error [ME] (%) == 0.00
+Volume Error (%) == -0.00  ! % of Volume In + Out
+Cumulative Mass Error [ME] (%) == -0.00
 
 Summary Output Interval (s) == 1800.
 Number Summary Values == 7
-Volume In Values [Qi]  == 0.0, 172800.6, 21600.0, 21600.0, 21600.0, 21600.0, 1.5
-Volume Out Values [Qo] == 0.0, 165216.3, 21600.6, 21599.4, 21601.5, 21598.5, 1.5
-Change in Volume Values [dV] == 0.0, 7584.3, -0.6, 0.6, -1.5, 1.5, 0.0
-Mass Error Values [ME] (%) == 0.0, -0.0, -0.0, -0.0, 0.0, -0.0, 0.0
+Volume In Values [Qi]  == 0.0, 172800.4, 21600.0, 21600.0, 21600.0, 21600.0, 1.5
+Volume Out Values [Qo] == 0.0, 165204.9, 21600.3, 21599.7, 21600.2, 21599.8, 1.5
+Change in Volume Values [dV] == 0.0, 7595.5, -0.3, 0.3, -0.2, 0.2, -0.0
+Mass Error Values [ME] (%) == 0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0
 
 Number TUFLOW 1D Nodes == 0
 Number TUFLOW 1D Channels == 0

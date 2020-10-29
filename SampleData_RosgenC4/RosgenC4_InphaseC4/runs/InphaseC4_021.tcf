@@ -23,6 +23,7 @@ Write Check Files == ..\check\021\   ! Specifies check files to be written to TU
 Map Output Format == GRID XMDF  ! Output directly to GIS (grid) as well as SMS (xmdf compact) format
 Map Output Data Types == h d n V BSS    ! wse depth Manning's n velocity bed shear stress
 Start Map Output == 4   ! Start map output at 4 hours
+Grid Output Cell Size == 0.5
 Map Output Interval == 1800    ! Output every 1800 seconds (30 minutes)
 GRID Map Output Data Types == h d n V BSS
 Time Series Output Interval  == 30    ! time interval of output in seconds

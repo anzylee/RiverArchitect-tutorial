@@ -1,5 +1,5 @@
-TUFLOW Control File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Vanilla\runs\VanillaC4_020.tcf"
-TUFLOW Log File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Vanilla\runs\Log\VanillaC4_020.tlf"
+TUFLOW Control File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_VanillaC4\runs\VanillaC4_020.tcf"
+TUFLOW Log File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_VanillaC4\runs\Log\VanillaC4_020.tlf"
 TUFLOW Build == Build: 2020-01-AB-iSP-w64
 Solution Scheme == HPC
 Hardware == GPU
@@ -12,13 +12,13 @@ Simulation Start Time (h) == 0.
 Simulation End Time (h) == 6.
 
 Percentage Complete (%) == 100
-Completed Computational Steps == 107324
+Completed Computational Steps == 107117
 
-CPU Time (h) == 0.07313
-Clock Time (h) == 0.07556
+CPU Time (h) == 0.07463
+Clock Time (h) == 0.0775
 Approximate Clock Time Remaining (h) == 0.
 
-HPC HCN Repeated Timesteps == 12  ! HCN is High Control Numbers, eg. Courant Number exceedance
+HPC HCN Repeated Timesteps == 11  ! HCN is High Control Numbers, eg. Courant Number exceedance
 HPC NaN Repeated Timesteps == 0  ! NaN - Not a Number means an instability occurred
 HPC NaN WARNING 2550 == 0
 WARNINGs Prior to Simulation == 2
@@ -27,18 +27,18 @@ CHECKs Prior to Simulation == 0
 CHECKs During Simulation == 0
 
 Volume at Start (m3) == 11304
-Volume at End (m3) == 35475
+Volume at End (m3) == 35544
 Total Volume In (m3) == 1944014
-Total Volume Out (m3) == 1919843
+Total Volume Out (m3) == 1919774
 Volume Error (m3) == 0
 Volume Error (%) == -0.00  ! % of Volume In + Out
 Cumulative Mass Error [ME] (%) == -0.00
 
 Summary Output Interval (s) == 1800.
 Number Summary Values == 7
-Volume In Values [Qi]  == 0.0, 1296003.1, 162000.0, 162000.0, 162000.0, 162000.0, 11.3
-Volume Out Values [Qo] == 0.0, 1271831.3, 162000.0, 162000.0, 162000.0, 162000.0, 11.3
-Change in Volume Values [dV] == 0.0, 24171.7, -0.0, 0.0, -0.0, -0.0, -0.0
+Volume In Values [Qi]  == 0.0, 1296003.2, 162000.0, 162000.0, 162000.0, 162000.0, 11.3
+Volume Out Values [Qo] == 0.0, 1271762.8, 162000.0, 162000.0, 162000.9, 161999.1, 11.3
+Change in Volume Values [dV] == 0.0, 24240.3, -0.0, -0.0, -0.9, 1.0, -0.0
 Mass Error Values [ME] (%) == 0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0
 
 Number TUFLOW 1D Nodes == 0

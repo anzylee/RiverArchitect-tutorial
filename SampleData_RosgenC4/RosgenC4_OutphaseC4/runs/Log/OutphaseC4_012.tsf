@@ -1,5 +1,5 @@
-TUFLOW Control File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\OutphaseC4_012.tcf"
-TUFLOW Log File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_012.tlf"
+TUFLOW Control File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\OutphaseC4_012.tcf"
+TUFLOW Log File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\Log\OutphaseC4_012.tlf"
 TUFLOW Build == Build: 2020-01-AB-iSP-w64
 Solution Scheme == HPC
 Hardware == GPU
@@ -12,10 +12,10 @@ Simulation Start Time (h) == 0.
 Simulation End Time (h) == 6.
 
 Percentage Complete (%) == 100
-Completed Computational Steps == 100678
+Completed Computational Steps == 100699
 
-CPU Time (h) == 0.06516
-Clock Time (h) == 0.06806
+CPU Time (h) == 0.06007
+Clock Time (h) == 0.06278
 Approximate Clock Time Remaining (h) == 0.
 
 HPC HCN Repeated Timesteps == 0  ! HCN is High Control Numbers, eg. Courant Number exceedance
@@ -27,19 +27,19 @@ CHECKs Prior to Simulation == 0
 CHECKs During Simulation == 0
 
 Volume at Start (m3) == 330
-Volume at End (m3) == 23134
+Volume at End (m3) == 23135
 Total Volume In (m3) == 324003
-Total Volume Out (m3) == 301199
+Total Volume Out (m3) == 301197
 Volume Error (m3) == 0
-Volume Error (%) == -0.00  ! % of Volume In + Out
-Cumulative Mass Error [ME] (%) == -0.00
+Volume Error (%) == 0.00  ! % of Volume In + Out
+Cumulative Mass Error [ME] (%) == 0.00
 
 Summary Output Interval (s) == 1800.
 Number Summary Values == 7
 Volume In Values [Qi]  == 0.0, 216000.9, 27000.0, 27000.0, 27000.0, 27000.0, 1.9
-Volume Out Values [Qo] == 0.0, 193197.0, 27000.0, 27000.0, 27000.0, 27000.0, 1.9
-Change in Volume Values [dV] == 0.0, 22803.9, 0.0, -0.0, 0.0, -0.0, 0.0
-Mass Error Values [ME] (%) == 0.0, -0.0, 0.0, -0.0, 0.0, -0.0, -0.0
+Volume Out Values [Qo] == 0.0, 193195.4, 27000.0, 27000.0, 27000.0, 27000.0, 1.9
+Change in Volume Values [dV] == 0.0, 22805.4, 0.0, -0.0, -0.0, 0.0, 0.0
+Mass Error Values [ME] (%) == 0.0, 0.0, 0.0, 0.0, -0.0, 0.0, 0.0
 
 Number TUFLOW 1D Nodes == 0
 Number TUFLOW 1D Channels == 0

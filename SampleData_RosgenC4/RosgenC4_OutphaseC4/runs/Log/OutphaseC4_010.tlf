@@ -5,7 +5,7 @@ Executable: C:\Program Files\Tuflow_w64\TUFLOW_iSP_w64.exe (Copyright BMT WBM Pt
 
 Computer Name: WATERLAB-DUALBO
 
-Simulation Started: 2020-Oct-19 00:52
+Simulation Started: 2020-Oct-27 23:37
 
 
 Compiler: Intel Fortran v19.0; Single Precision; 64-bit
@@ -18,9 +18,9 @@ No Specified Scenarios.
 
 No variables defined using Set Variable ==
 
-Initialising Time of Startup Summary == F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_010_start_stats.txt
+Initialising Time of Startup Summary == F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\Log\OutphaseC4_010_start_stats.txt
 
-Trying to open (O) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_010_start_stats.txt...OK.  File Unit: 903
+Trying to open (O) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\Log\OutphaseC4_010_start_stats.txt...OK.  File Unit: 903
 
 Initialising TUFLOW Licence Settings...
 Looking for "C:\Program Files\Tuflow_w64\TUFLOW_Licence_Settings.lcf"...not found.
@@ -40,7 +40,7 @@ Searching for a BMT WIBU Hardware Licence...
 TUFLOW Engine          Dongle 4918157  Expiry Indefinite  Local   1 of   1 (0 remaining)
 TUFLOW Threads (1)     Dongle 4918157  Expiry Indefinite  Local   1 of   4 (3 remaining)
 
-Trying to open (A) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\_ TUFLOW Simulations.log...OK.  File Unit: 904
+Trying to open (A) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\_ TUFLOW Simulations.log...OK.  File Unit: 904
 ...Closed File Unit: 904
 
 Trying to open (A) file C:\ProgramData\TUFLOW\log\waterlab\_ All TUFLOW Simulations.log...OK.  File Unit: 904
@@ -51,33 +51,35 @@ CPU limiting not activated for WIBU dongles.
 
 Setting up dynamic arrays...
 
-Reading .tcf File .. F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\OutphaseC4_010.tcf
+Reading .tcf File .. F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\OutphaseC4_010.tcf
 
-Trying to open (O) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_010.wor...OK.  File Unit: 904
+Trying to open (O) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\Log\OutphaseC4_010.wor...OK.  File Unit: 904
 
-Trying to open (O) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_010.qgs...OK.  File Unit: 905
+Trying to open (O) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\Log\OutphaseC4_010.qgs...OK.  File Unit: 905
 
-Trying to open (O) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_input_layers.mif...Can't Open: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_input_layers.mif
+Trying to open (O) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_input_layers.mif...Can't Open: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_input_layers.mif
 OK.  File Unit: 906
 
-Trying to open (O) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_input_layers.mid...OK.  File Unit: 907
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_010_messages.mif
+Trying to open (O) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_input_layers.mid...OK.  File Unit: 907
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\Log\OutphaseC4_010_messages.mif
 GIS Layer assigned ID of 1
 
-Trying to open (O) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_010_messages.mif...OK.  File Unit: 908
+Trying to open (O) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\Log\OutphaseC4_010_messages.mif...OK.  File Unit: 908
 
-Trying to open (O) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_010_messages.mid...OK.  File Unit: 909
+Trying to open (O) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\Log\OutphaseC4_010_messages.mid...OK.  File Unit: 909
 
-Trying to open (O) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_010_messages.csv...OK.  File Unit: 910
+Trying to open (O) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\Log\OutphaseC4_010_messages.csv...OK.  File Unit: 910
 
-Home Folder: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\
+Home Folder: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\
 
 Free-Form Input Assumed...
 
 
-Trying to open (I) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\materials.csv...OK.  File Unit: 911
+Trying to open (I) file F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\materials.csv...OK.  File Unit: 911
 
-  1...Processing: 1,0.035,,,
+  1...Processing: 1,0.035
+
+  2...Processing: 4,0.035
 ...Closed File Unit: 911
 Initialising GPU Hardware Module licence...
 TUFLOW GPU Cards (1)   Dongle 4918157  Expiry Indefinite  Local   1 of   1 (0 remaining)
@@ -129,9 +131,16 @@ Landuse Hazard ID not set.
 SRF (Storage Reduction Factor) = 0.
 Fraction Impervious = 0.
 
+#2 - Material 4:
+Fixed Manning's n = 0.035
+IL/CL values not set.
+Landuse Hazard ID not set.
+SRF (Storage Reduction Factor) = 0.
+Fraction Impervious = 0.
 
-Output Files to be Pre-fixed by: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\010\OutphaseC4_010
-Log and message files to be pre-fixed by: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_010
+
+Output Files to be Pre-fixed by: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\results\010\OutphaseC4_010
+Log and message files to be pre-fixed by: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\Log\OutphaseC4_010
 
 !_______________________________________________________________________________
 ! BACKWARD COMPATIBILITY DEFAULTS COMMANDS
@@ -170,8 +179,8 @@ GPU Device IDs == 0,
 ! Found 1 2D Domain(s)
 
 Start 2D Domain == Domain_001
-   Geometry Control File == F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\OutphaseC4.tgc
-   BC Control File == F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\OutphaseC4.tbc
+   Geometry Control File == F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\OutphaseC4.tgc
+   BC Control File == F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\OutphaseC4.tbc
    Cell Wet/Dry Depth (m) == 0.002
    Cell Side Wet/Dry Depth (m) == 0.001
    ! Instability Water Level == <default>  ! ie. will use highest Zpt
@@ -181,10 +190,10 @@ End 2D Domain == Domain_001
 
 !_______________________________________________________________________________
 ! FILE MANAGEMENT COMMANDS
-Write Check Files == F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010
+Write Check Files == F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010
 Input Drive == 
 Output Drive == 
-Output Folder == F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\010\
+Output Folder == F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\results\010\
 Check MI Save Date == ERROR  ! [ {ERROR} | WARNING | OFF ]
 Check MI Save Ext == .tab  ! [ {.tab} | <ext> ]
 XF Files  == ON   ! Options [ ON | {OFF} ]
@@ -192,7 +201,7 @@ XF Files  == ON   ! Options [ ON | {OFF} ]
 
 !_______________________________________________________________________________
 ! BC DATABASE GLOBAL SETTINGS COMMANDS
-BC Database == F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\bc_dbase\2d_bc_OutphaseC4_010.csv
+BC Database == F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\bc_dbase\2d_bc_OutphaseC4_010.csv
 BC Event Name == 
 BC Event Source == <source_text> | <source_name>
 BC Zero Flow == OFF  ! [ {OFF} | START | END | START and END ]
@@ -225,8 +234,8 @@ Layered FLC Default Approach == PORTION  ! [ CUMULATE | PORTION ]
 
 MAP OUTPUT SETTINGS for ENTIRE MODEL
    Map Output Entire Model == ON   ! Options [ ON | {OFF} ]
-   Output Folder == F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\010\
-   ! Output Name: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\010\OutphaseC4_010
+   Output Folder == F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\results\010\
+   ! Output Name: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\results\010\OutphaseC4_010
    Maximums and Minimums == ON MAXIMUMS ONLY   ! Options [ ON | ON MAXIMUMS ONLY | {OFF} ]
    Map Output Formats ==  XMDF FLT   ! Options  [ ASC ] [ CC ] [ DAT ] [ FLT ] [ GRID ] [ NC ] [ T3 ] [ TGO ] [ TMO ] [ WRB ] [ WRC ] [ WRR ] [ {XMDF} ] [ SMS [ {} | TRIANGLES | HIGH RES [ {} | CORNERS ONLY ] ] ]
    XMDF Map Output Data Types ==  h d n V BSS
@@ -240,7 +249,7 @@ MAP OUTPUT SETTINGS for ENTIRE MODEL
    FLT Map Output Interval (s) == 1800.
 END MAP OUTPUT SETTINGS for ENTIRE MODEL
 
-Grid Output Cell Size == Not Specified
+Grid Output Cell Size == 0.5
 Grid Output Origin == AUTOMATIC
 
 Maximums Approach == METHOD B
@@ -395,22 +404,22 @@ Found 1 2D domain(s)
 NoXY: WARNING 0307 - No MI Projection specified. Non-Earth Coordinates will be used.
 Wiki Link: https://wiki.tuflow.com/index.php?title=TUFLOW_Message_0307
 
-Attempting to create XMDF file "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\010\OutphaseC4_010.xmdf"
+Attempting to create XMDF file "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\results\010\OutphaseC4_010.xmdf"
 
-Created XMDF file "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\010\OutphaseC4_010.xmdf"
+Created XMDF file "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\results\010\OutphaseC4_010.xmdf"
 
 Found a total of 0 hazard map outputs.
 
 Allocating 1600 Kb of temporary memory (RAM)
 
-Opening BC Control File "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\OutphaseC4.tbc" for 2D Domain Domain_001
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_bc_VanillaC4_HT_L.shp
+Opening BC Control File "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\OutphaseC4.tbc" for 2D Domain Domain_001
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_bc_VanillaC4_HT_L.shp
 GIS Layer assigned ID of 2
 8 DBF Fields (Name [#/Type/Length]): Type [1/C/2]  Flags [2/C/3]  Name [3/C/100]  f [4/N/16]  d [5/N/16]  td [6/N/16]  a [7/N/16]  b [8/N/16]  
 Number of Input Layers: 1
-Input Layer 1: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_bc_VanillaC4_HT_L.shp
+Input Layer 1: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_bc_VanillaC4_HT_L.shp
 
-Closing GIS Layer 2 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_bc_VanillaC4_HT_L.shp]...
+Closing GIS Layer 2 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_bc_VanillaC4_HT_L.shp]...
 
 Deallocating temporary memory (RAM)
 
@@ -425,12 +434,12 @@ Found a total of 0 1D nodes.  0 ESTRY nodes and 0 external 1D scheme nodes.
 Allocating space for output zones based on a resolution factor of 2
 
 tgc>> READ GIS LOCATION == ..\model\gis\2d_loc_VanillaC4_L.shp
-out > READ GIS LOCATION...Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_loc_VanillaC4_L.shp
+out > READ GIS LOCATION...Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_loc_VanillaC4_L.shp
 GIS Layer assigned ID of 2
 1 DBF Fields (Name [#/Type/Length]): Comment [1/C/250]  
 found first line - see below for grid location
 
-Closing GIS Layer 2 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_loc_VanillaC4_L.shp]...
+Closing GIS Layer 2 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_loc_VanillaC4_L.shp]...
 
 tgc>> Cell Size == 1
 out > Cell Size...set to   1.000
@@ -441,10 +450,10 @@ out > Grid Size (X,Y)...see below for calculated size
 Domain_001  : Grid Dimensions (N,M): 140,770
 Domain_001  : Geographic Origin:         103.924          35.750
 Domain_001  : Geographic Rotation Angle:   0.000000
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_dom_check.mif
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_dom_check.mif
 GIS Layer assigned ID of 2
 
-Closing GIS Layer 2 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_dom_check.mif]...
+Closing GIS Layer 2 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_dom_check.mif]...
 
 Counting any Variable Zpt, SGS Zpt,FC and/or Layered FC Shapes...
 
@@ -453,22 +462,22 @@ Counting any Variable Zpt, SGS Zpt,FC and/or Layered FC Shapes...
 ...Found total of 0 FC Shape Cell Sides in 2D Domain Domain_001.
 
 ...Found total of 0 Layered FC Shape Cell Sides in 2D Domain Domain_001.
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_po_VanillaC4_P.shp
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_po_VanillaC4_P.shp
 GIS Layer assigned ID of 2
 3 DBF Fields (Name [#/Type/Length]): Type [1/C/20]  Label [2/C/30]  Comment [3/C/250]  
 
-Rewinding RL / PO layer to look for regions, F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_po_VanillaC4_P.shp
+Rewinding RL / PO layer to look for regions, F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_po_VanillaC4_P.shp
 3 DBF Fields (Name [#/Type/Length]): Type [1/C/20]  Label [2/C/30]  Comment [3/C/250]  
 
-Closing GIS Layer 2 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_po_VanillaC4_P.shp]...
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_po_VanillaC4_L.shp
+Closing GIS Layer 2 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_po_VanillaC4_P.shp]...
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_po_VanillaC4_L.shp
 GIS Layer assigned ID of 2
 3 DBF Fields (Name [#/Type/Length]): Type [1/C/20]  Label [2/C/30]  Comment [3/C/250]  
 
-Rewinding RL / PO layer to look for regions, F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_po_VanillaC4_L.shp
+Rewinding RL / PO layer to look for regions, F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_po_VanillaC4_L.shp
 3 DBF Fields (Name [#/Type/Length]): Type [1/C/20]  Label [2/C/30]  Comment [3/C/250]  
 
-Closing GIS Layer 2 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_po_VanillaC4_L.shp]...
+Closing GIS Layer 2 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_po_VanillaC4_L.shp]...
 
 Allocated space for 625 Time Series Plot Outputs including Reporting Locations
 
@@ -479,15 +488,15 @@ Allocated space for 0 Longitudinal Plot Line Segments
    with a maximum of 1 cells along a segment
 Domain_001  : Number of PO Time Series Locations:...   625
 Domain_001  : Number of LP Profile Locations:.......     0
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_bc_VanillaC4_HT_L.shp
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_bc_VanillaC4_HT_L.shp
 GIS Layer assigned ID of 2
 8 DBF Fields (Name [#/Type/Length]): Type [1/C/2]  Flags [2/C/3]  Name [3/C/100]  f [4/N/16]  d [5/N/16]  td [6/N/16]  a [7/N/16]  b [8/N/16]  
 Number of Input Layers: 1
-Input Layer 1: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_bc_VanillaC4_HT_L.shp
+Input Layer 1: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_bc_VanillaC4_HT_L.shp
 Found database line: RPout,OutphaseC4_bc_data_010.csv,Time,RPout
 Looking for data in columns 1, 3 after line starting with:
 Time,RPin,RPout
-Converting .csv file to xf: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\bc_dbase\OutphaseC4_bc_data_010.csv
+Converting .csv file to xf: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\bc_dbase\OutphaseC4_bc_data_010.csv
 Number of lines in .csv file: 3
 Found 3 columns based on header line.
 Found 2 rows of data
@@ -499,18 +508,18 @@ Writing xf data...
 Finished writing xf file.
 ...Array size from xf file: 2
 
-Closing GIS Layer 2 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_bc_VanillaC4_HT_L.shp]...
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_sa_VanillaC4_QT_R.shp
+Closing GIS Layer 2 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_bc_VanillaC4_HT_L.shp]...
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_sa_VanillaC4_QT_R.shp
 GIS Layer assigned ID of 2
 1 DBF Fields (Name [#/Type/Length]): Name [1/C/100]  
-Reading: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_sa_VanillaC4_QT_R.shp
+Reading: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_sa_VanillaC4_QT_R.shp
 
-Closing GIS Layer 2 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_sa_VanillaC4_QT_R.shp]...
+Closing GIS Layer 2 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_sa_VanillaC4_QT_R.shp]...
 ...Allocating space for   1 new SA time-series boundaries. Total =   1
 Found database line: RPin,OutphaseC4_bc_data_010.csv,Time,RPin
 Looking for data in columns 1, 2 after line starting with:
 Time,RPin,RPout
-Converting .csv file to xf: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\bc_dbase\OutphaseC4_bc_data_010.csv
+Converting .csv file to xf: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\bc_dbase\OutphaseC4_bc_data_010.csv
 Number of lines in .csv file: 3
 Found 3 columns based on header line.
 Found 2 rows of data
@@ -529,7 +538,7 @@ Found 0 possible pit SX connections inside 2D Domain Domain_001
 Ignoring 0 pit SX connections outside 2D Domain Domain_001
 
 Found a total of 1 different SA(ST) inputs
-...with a maximum number of cells per ST input of 220
+...with a maximum number of cells per ST input of 775
 
 Domain_001  : Allocating Memory Pointers:
 Domain_001  : Grid data memory ...............          5 Mb
@@ -562,8 +571,6 @@ Tri-diagonal matrix memory ....................          0 Mb
 
 Outside extent of model output: 103.9236, 35.75, 873.9236, 175.75
 
-Setting Grid Output Cell Size to: 0.5
-
 Grid output dimensions: 281 rows by 1541 columns
 Grid output memory ............................          6 Mb
 TIN and output mesh memory ....................         12 Mb
@@ -595,18 +602,18 @@ ________________________________________________________________________________
 
 
 Deallocating temporary 1D domain memory (RAM)
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\010\plot\gis\OutphaseC4_010_PLOT_P.mif
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\results\010\plot\gis\OutphaseC4_010_PLOT_P.mif
 GIS Layer assigned ID of 2
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\010\plot\gis\OutphaseC4_010_PLOT_L.mif
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\results\010\plot\gis\OutphaseC4_010_PLOT_L.mif
 GIS Layer assigned ID of 3
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\010\plot\gis\OutphaseC4_010_PLOT_R.mif
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\results\010\plot\gis\OutphaseC4_010_PLOT_R.mif
 GIS Layer assigned ID of 4
 
 ________________________________________________________________________________
-CPU Time:        0:00:00  [0.000065 h]
-Clock Time:      0:00:00  [0. h]
+CPU Time:        0:00:00  [0.000061 h]
+Clock Time:      0:00:01  [0.000278 h]
 
-Domain_001: Reading Geometry File ... F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\OutphaseC4.tgc
+Domain_001: Reading Geometry File ... F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\OutphaseC4.tgc
 Processing Topographic Commands
 
 tgc>> Set Zpts == 1050
@@ -625,41 +632,41 @@ out>> Set Code...global value of     0.000 being applied
 
 tgc>> Read GIS Code == ..\model\gis\2d_code_VanillaC4_R.SHP
 out>> Read GIS Code...
-Opening Read GIS Code File: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_code_VanillaC4_R.SHP
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_code_VanillaC4_R.SHP
+Opening Read GIS Code File: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_code_VanillaC4_R.SHP
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_code_VanillaC4_R.SHP
 GIS Layer assigned ID of 5
-Reading Read GIS Code File: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_code_VanillaC4_R.SHP
+Reading Read GIS Code File: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_code_VanillaC4_R.SHP
 1 DBF Fields (Name [#/Type/Length]): Code [1/N/8]  
 
-Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_code_VanillaC4_R.SHP]...
+Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_code_VanillaC4_R.SHP]...
 
 tgc>> Set Mat == 1
 out>> Set Mat...global value of     1.000 being applied
 ...Finished Reading Geometry File
 
 Domain_001: Searching .tcf file for data ... 
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_po_VanillaC4_P.shp
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_po_VanillaC4_P.shp
 GIS Layer assigned ID of 5
 3 DBF Fields (Name [#/Type/Length]): Type [1/C/20]  Label [2/C/30]  Comment [3/C/250]  
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_po_check.mif
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_po_check.mif
 GIS Layer assigned ID of 6
 
-Rewinding RL / PO layer to look for regions, F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_po_VanillaC4_P.shp
+Rewinding RL / PO layer to look for regions, F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_po_VanillaC4_P.shp
 3 DBF Fields (Name [#/Type/Length]): Type [1/C/20]  Label [2/C/30]  Comment [3/C/250]  
 
-Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_po_VanillaC4_P.shp]...
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_po_VanillaC4_L.shp
+Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_po_VanillaC4_P.shp]...
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_po_VanillaC4_L.shp
 GIS Layer assigned ID of 5
 3 DBF Fields (Name [#/Type/Length]): Type [1/C/20]  Label [2/C/30]  Comment [3/C/250]  
 
-Rewinding RL / PO layer to look for regions, F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_po_VanillaC4_L.shp
+Rewinding RL / PO layer to look for regions, F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_po_VanillaC4_L.shp
 3 DBF Fields (Name [#/Type/Length]): Type [1/C/20]  Label [2/C/30]  Comment [3/C/250]  
 
-Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_po_VanillaC4_L.shp]...
+Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_po_VanillaC4_L.shp]...
 
 Initial water levels (IWL) globally set to 1001.
 
-Closing GIS Layer 6 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_po_check.mif]...
+Closing GIS Layer 6 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_po_check.mif]...
 ...Finished Searching .tcf File
 Identifying cells within user defined output zones...
 ...Finished identifying cells within user defined output zones...
@@ -672,25 +679,25 @@ Assigning any Variable Z Shape 1D Trigger Nodes...
 
 
 ________________________________________________________________________________
-CPU Time:        0:00:00  [0.000065 h]
-Clock Time:      0:00:00  [0. h]
+CPU Time:        0:00:00  [0.000069 h]
+Clock Time:      0:00:01  [0.000278 h]
 
-Domain_001: Reading Boundary File: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\OutphaseC4.tbc
+Domain_001: Reading Boundary File: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\OutphaseC4.tbc
 
 READING Boundary Conditions:
 
             BC ID    nbc    nht    nhs    nhq    nqt    nqc    nvt    nvc    nwp    nst    nsh    nsx    nhx   nvgt
 Requested:           130    129      0      0      0      0      0      0      0      1      0      0      0      0
 
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_bcc_check.mif
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_bcc_check.mif
 GIS Layer assigned ID of 5
 
-Creating F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_2d_bc_tables_check.csv
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_bc_VanillaC4_HT_L.shp
+Creating F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_2d_bc_tables_check.csv
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_bc_VanillaC4_HT_L.shp
 GIS Layer assigned ID of 6
 8 DBF Fields (Name [#/Type/Length]): Type [1/C/2]  Flags [2/C/3]  Name [3/C/100]  f [4/N/16]  d [5/N/16]  td [6/N/16]  a [7/N/16]  b [8/N/16]  
 Number of Input Layers: 1
-Input Layer 1: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_bc_VanillaC4_HT_L.shp
+Input Layer 1: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_bc_VanillaC4_HT_L.shp
 ...Reading coordinates of any 1D connections from Layer 1
 Found     0 1D connections
 8 DBF Fields (Name [#/Type/Length]): Type [1/C/2]  Flags [2/C/3]  Name [3/C/100]  f [4/N/16]  d [5/N/16]  td [6/N/16]  a [7/N/16]  b [8/N/16]  
@@ -699,7 +706,7 @@ Processing TUFLOW "HT" BC with name "RPout"...
 Found database line: RPout,OutphaseC4_bc_data_010.csv,Time,RPout
 Looking for data in columns 1, 3 after line starting with:
 Time,RPin,RPout
-Converting .csv file to xf: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\bc_dbase\OutphaseC4_bc_data_010.csv
+Converting .csv file to xf: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\bc_dbase\OutphaseC4_bc_data_010.csv
 Number of lines in .csv file: 3
 Found 3 columns based on header line.
 Found 2 rows of data
@@ -718,7 +725,7 @@ Applying value multiplication factor of ..:       1.000
 Column 1 ranges from        0.000 to        0.250
 Column 2 ranges from     1001.401 to     1001.401
 
-Closing GIS Layer 6 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_bc_VanillaC4_HT_L.shp]...
+Closing GIS Layer 6 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_bc_VanillaC4_HT_L.shp]...
             BC ID    nbc    nht    nhs    nhq    nqt    nqc    nvt    nvc    nwp    nst    nsh    nsx    nhx   nvgt
      Read:      0    129    129      0      0      0      0      0      0      0      0      0      0      0      0
 Requested:           130    129      0      0      0      0      0      0      0      1      0      0      0      0
@@ -726,25 +733,14 @@ Requested:           130    129      0      0      0      0      0      0      0
 Checking all connection objects are used...
 ...Finished.
 
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_sa_VanillaC4_QT_R.shp
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_sa_VanillaC4_QT_R.shp
 GIS Layer assigned ID of 6
 1 DBF Fields (Name [#/Type/Length]): Name [1/C/100]  
 
-Closing GIS Layer 6 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\model\gis\2d_sa_VanillaC4_QT_R.shp]...
+Closing GIS Layer 6 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\model\gis\2d_sa_VanillaC4_QT_R.shp]...
 ...Found     1 new SA/RF time-series boundaries. Total =      1
 Found database line: RPin,OutphaseC4_bc_data_010.csv,Time,RPin
-Looking for data in columns 1, 2 after line starting with:
-Time,RPin,RPout
-Converting .csv file to xf: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\bc_dbase\OutphaseC4_bc_data_010.csv
-Number of lines in .csv file: 3
-Found 3 columns based on header line.
-Found 2 rows of data
-Column    1: with name "Time" has 2 rows of data
-Column    2: with name "RPin" has 2 rows of data
-Column    3: with name "RPout" has 2 rows of data
-Finished reading data
-Writing xf data...
-Finished writing xf file.
+Looking for data in columns 1, 2 of xf file.
 Extracting Data...
 ...Finished Extracting Data
 Checking ascending order of Column 1...OK
@@ -765,7 +761,7 @@ Checking all connection objects are used...
             BC ID    nbc    nht    nhs    nhq    nqt    nqc    nvt    nvc    nwp    nst    nsh    nsx    nhx   nvgt
 
 
-Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_bcc_check.mif]...
+Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_bcc_check.mif]...
 
 ...Finished Reading Boundary File for Domain Domain_001
 
@@ -778,7 +774,7 @@ Finished indexing HX and SX cells connectivity to 1D nodes.
 
 ________________________________________________________________________________
 CPU Time:        0:00:00  [0.000074 h]
-Clock Time:      0:00:00  [0. h]
+Clock Time:      0:00:01  [0.000278 h]
 
 Domain_001: Initialising 2D Data (Stage 1)...
 
@@ -804,18 +800,18 @@ Setting default computational array values...
 ...Finished Initialising Data (Stage 1) for Domain Domain_001
 
 ________________________________________________________________________________
-CPU Time:        0:00:00  [0.000078 h]
-Clock Time:      0:00:00  [0. h]
+CPU Time:        0:00:00  [0.000074 h]
+Clock Time:      0:00:01  [0.000278 h]
 
 Domain_001: Initialising 2D Data (Stage 2)...
 
 Assigning 2D cell codes...
 
 Pre-processing any SA regions...
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_sac_check.mif
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_sac_check.mif
 GIS Layer assigned ID of 5
 
-Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_sac_check.mif]...
+Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_sac_check.mif]...
 
 Setting invert levels for distributing SX flows...
 
@@ -839,10 +835,10 @@ Domain_001: Checking 2D Input Data...
 ...Finished Checking Input Data for Domain Domain_001
 
 Checking any 1D/2D and 2D/2D Link Elevations...
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_1d_to_2d_check.mif
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_1d_to_2d_check.mif
 GIS Layer assigned ID of 5
 
-Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_1d_to_2d_check.mif]...
+Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_1d_to_2d_check.mif]...
 ...Finished.
 
 ________________________________________________________________________________
@@ -855,18 +851,18 @@ Found a total of 0 structure groups.
 ________________________________________________________________________________
 
 Writing any remaining check files...
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_grd_check.mif
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_grd_check.mif
 GIS Layer assigned ID of 5
 
-Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_grd_check.mif]...
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_zpt_check.mif
+Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_grd_check.mif]...
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_zpt_check.mif
 GIS Layer assigned ID of 5
 
-Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_zpt_check.mif]...
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_uvpt_check.mif
+Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_zpt_check.mif]...
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_uvpt_check.mif
 GIS Layer assigned ID of 5
 
-Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\check\010\OutphaseC4_010_uvpt_check.mif]...
+Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\check\010\OutphaseC4_010_uvpt_check.mif]...
 ...Finished writing any remaining check files
 
 Checking Zpt values are within Zpt Range Check values of -9998.000 and 99998.000...
@@ -880,7 +876,7 @@ Isolating redundant perimeter sections of 2D domain Domain_001...
 ...Reduced output grid by 9%.  Now extends from [1,1] to [129,761].
 
 ________________________________________________________________________________
-CPU Time:        0:00:02  [0.000651 h]
+CPU Time:        0:00:02  [0.000616 h]
 Clock Time:      0:00:03  [0.000833 h]
 
 Processing 1D/2D mesh and writing mesh file(s) where applicable...
@@ -917,8 +913,8 @@ Number of WARNINGs:    _messages layer =       2     Total =       2
 Number of CHECKs:      _messages layer =       0     Total =       0
 
 ________________________________________________________________________________
-CPU Time:        0:00:03  [0.000951 h]
-Clock Time:      0:00:04  [0.001111 h]
+CPU Time:        0:00:03  [0.00092 h]
+Clock Time:      0:00:05  [0.001389 h]
 Closing Time of Startup Summary...
    Done
 
@@ -957,6 +953,7 @@ Finished sending any Evaluation Group Data
 
 Transferring material parameters...
 ...Finished transferring Material Parameters.
+...Finished transferring Material Parameters.
 
 Transferring Material IDs...
 ...Finished transferring Material IDs.
@@ -987,7 +984,7 @@ Transferring tracking vector maximums settings...
 ... Finished transferring tracking vector maximums settings...
 
 ________________________________________________________________________________
-CPU Time:        0:00:03  [0.000981 h]
+CPU Time:        0:00:03  [0.000964 h]
 Clock Time:      0:00:05  [0.001389 h]
 
 Sending boundary data to HPC...
@@ -1010,34 +1007,34 @@ Sent 0 virtual pipe pit depth-discharge curves to HPC Solver.
 ...Finished initialising 1D Virtual Pipe data for HPC Solver.
 
 ________________________________________________________________________________
-CPU Time:        0:00:03  [0.000981 h]
+CPU Time:        0:00:03  [0.000964 h]
 Clock Time:      0:00:05  [0.001389 h]
 
 ________________________________________________________________________________
 
-Initialising Run Time Summary == F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_010_hpc_run_stats.txt
+Initialising Run Time Summary == F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\Log\OutphaseC4_010_hpc_run_stats.txt
 SIM:    0:00:00    -d  0  0    0D100%  1D  0%  2D  0%    CE  0.0%  0.0%  0.0%    Vi     0  Vo     0  dV     0
 HPC Solver at time       0.000
-SIM:    4:00:00    -d  0  0    0D  0%  1D  0%  2D100%    CE  0.0%  0.0%  0.0%    Vi   144' Vo   124' dV 19508
-Writing HPC Output at: 4:00:00  Clock: 0:02:30  CPU: 0:02:26
+SIM:    4:00:00    -d  0  0    0D  0%  1D  0%  2D100%    CE  0.0%  0.0%  0.0%    Vi   144' Vo   124' dV 19509
+Writing HPC Output at: 4:00:00  Clock: 0:02:24  CPU: 0:02:17
 HPC Solver at time       4.000
-SIM:    4:30:00    -d  0  0    0D  0%  1D  0%  2D100%    CE  0.0%  0.0%  0.0%    Vi 18000  Vo 18000  dV     0
-Writing HPC Output at: 4:30:00  Clock: 0:02:49  CPU: 0:02:44
+SIM:    4:30:00    -d  0  0    0D  0%  1D  0%  2D100%    CE -0.0%  0.0% -0.0%    Vi 18000  Vo 18000  dV     0
+Writing HPC Output at: 4:30:00  Clock: 0:02:42  CPU: 0:02:34
 HPC Solver at time       4.500
-SIM:    5:00:00    -d  0  0    0D  0%  1D  0%  2D100%    CE  0.0%  0.0%  0.0%    Vi 18000  Vo 18000  dV     0
-Writing HPC Output at: 5:00:00  Clock: 0:03:08  CPU: 0:03:02
+SIM:    5:00:00    -d  0  0    0D  0%  1D  0%  2D100%    CE -0.0%  0.0% -0.0%    Vi 18000  Vo 18000  dV     0
+Writing HPC Output at: 5:00:00  Clock: 0:03:00  CPU: 0:02:51
 HPC Solver at time       5.000
-SIM:    5:30:00    -d  0  0    0D  0%  1D  0%  2D100%    CE -0.0%  0.0% -0.0%    Vi 18000  Vo 18000  dV     0
-Writing HPC Output at: 5:30:00  Clock: 0:03:27  CPU: 0:03:20
+SIM:    5:30:00    -d  0  0    0D  0%  1D  0%  2D100%    CE  0.0%  0.0%  0.0%    Vi 18000  Vo 18000  dV     0
+Writing HPC Output at: 5:30:00  Clock: 0:03:18  CPU: 0:03:09
 HPC Solver at time       5.500
-SIM:    6:00:00    -d  0  0    0D  0%  1D  0%  2D100%    CE -0.0%  0.0% -0.0%    Vi 18000  Vo 18000  dV     0
-Writing HPC Output at: 6:00:00  Clock: 0:03:46  CPU: 0:03:39
+SIM:    6:00:00    -d  0  0    0D  1%  1D  0%  2D 99%    CE -0.0%  0.0% -0.0%    Vi 18000  Vo 18000  dV     0
+Writing HPC Output at: 6:00:00  Clock: 0:03:36  CPU: 0:03:26
 HPC Solver at time       6.000
-SIM:    6:00:00    -d  0  0    0D  1%  1D  0%  2D 99%    CE  0.0%  0.0%  0.0%    Vi     1  Vo     1  dV     0
+SIM:    6:00:00    -d  0  0    0D  1%  1D  0%  2D 99%    CE -0.0%  0.0% -0.0%    Vi     1  Vo     1  dV     0
 
 ________________________________________________________________________________
-CPU Time:        0:03:39  [0.06086 h]
-Clock Time:      0:03:46  [0.06278 h]
+CPU Time:        0:03:26  [0.05735 h]
+Clock Time:      0:03:36  [0.06 h]
 
 Finished HPC Solution.
 
@@ -1064,7 +1061,7 @@ Finished processing of HPC results.
 
 Run Finished ..... Steps completed: 6
    Total Negative Depths: 0
-Simulation took 0.06086 CPU hours
+Simulation took 0.05735 CPU hours
 One hour of model time takes 0.010 CPU hours
 
 ________________________________________________________________________________
@@ -1081,22 +1078,22 @@ No minimums to write.
 Closing map output files...
 
 Writing any PO output...
-Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\010\OutphaseC4_010_TS.mif
+Opening GIS Layer: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\results\010\OutphaseC4_010_TS.mif
 GIS Layer assigned ID of 5
 
-Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\010\OutphaseC4_010_TS.mif]...
+Closing GIS Layer 5 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\results\010\OutphaseC4_010_TS.mif]...
 
 Finished writing PO output...
 
-Closing GIS Layer 2 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\010\plot\gis\OutphaseC4_010_PLOT_P.mif]...
+Closing GIS Layer 2 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\results\010\plot\gis\OutphaseC4_010_PLOT_P.mif]...
 
-Closing GIS Layer 3 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\010\plot\gis\OutphaseC4_010_PLOT_L.mif]...
+Closing GIS Layer 3 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\results\010\plot\gis\OutphaseC4_010_PLOT_L.mif]...
 
-Closing GIS Layer 4 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\results\010\plot\gis\OutphaseC4_010_PLOT_R.mif]...
+Closing GIS Layer 4 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\results\010\plot\gis\OutphaseC4_010_PLOT_R.mif]...
 
-Input File ............ F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\OutphaseC4_010.tcfSimulation Log File ... F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_010.tlf
+Input File ............ F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\OutphaseC4_010.tcfSimulation Log File ... F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\Log\OutphaseC4_010.tlf
 
-Closing GIS Layer 1 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_010_messages.mif]...
+Closing GIS Layer 1 [F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\Log\OutphaseC4_010_messages.mif]...
 
 Closing any unclosed GIS layers...
 
@@ -1120,13 +1117,13 @@ ________________________________________________________________________________
 
 SIMULATION SUMMARY
 
-Input File: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\OutphaseC4_010.tcf
-Log File:   F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_010.tlf
+Input File: F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\OutphaseC4_010.tcf
+Log File:   F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\Log\OutphaseC4_010.tlf
 
 Start Time (h): 0.
 End Time (h):   6.
-CPU Time:        0:03:39  [0.06094 h]
-Clock Time:      0:03:47  [0.06306 h]
+CPU Time:        0:03:26  [0.05741 h]
+Clock Time:      0:03:37  [0.06028 h]
 
 Simulation FINISHED
 
@@ -1140,11 +1137,11 @@ CHECKs prior to simulation:       0  [0 not in _messages layer]
 CHECKs during simulation:         0  [0 not in _messages layer]
 
 Volume at Start (m3):  205
-Volume at End (m3):    19713
+Volume at End (m3):    19714
 Total Volume In (m3):  216003
-Total Volume Out (m3): 196495
-Volume Error (m3):     0 or 0.0% of Volume In + Out
-Final Cumulative ME:   0.00%
+Total Volume Out (m3): 196494
+Volume Error (m3):     0 or -0.0% of Volume In + Out
+Final Cumulative ME:   -0.00%
 _____________________________________________________________________________________________________________
 
 Closing all file units...

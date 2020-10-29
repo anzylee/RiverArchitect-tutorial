@@ -1,5 +1,5 @@
-TUFLOW Control File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\runs\InphaseC4_012.tcf"
-TUFLOW Log File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\runs\Log\InphaseC4_012.tlf"
+TUFLOW Control File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\runs\InphaseC4_012.tcf"
+TUFLOW Log File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\runs\Log\InphaseC4_012.tlf"
 TUFLOW Build == Build: 2020-01-AB-iSP-w64
 Solution Scheme == HPC
 Hardware == GPU
@@ -14,8 +14,8 @@ Simulation End Time (h) == 6.
 Percentage Complete (%) == 100
 Completed Computational Steps == 94323
 
-CPU Time (h) == 0.05929
-Clock Time (h) == 0.06167
+CPU Time (h) == 0.05506
+Clock Time (h) == 0.05806
 Approximate Clock Time Remaining (h) == 0.
 
 HPC HCN Repeated Timesteps == 0  ! HCN is High Control Numbers, eg. Courant Number exceedance
@@ -27,9 +27,9 @@ CHECKs Prior to Simulation == 0
 CHECKs During Simulation == 0
 
 Volume at Start (m3) == 4517
-Volume at End (m3) == 14495
+Volume at End (m3) == 14512
 Total Volume In (m3) == 324003
-Total Volume Out (m3) == 314024
+Total Volume Out (m3) == 314007
 Volume Error (m3) == 0
 Volume Error (%) == 0.00  ! % of Volume In + Out
 Cumulative Mass Error [ME] (%) == 0.00
@@ -37,8 +37,8 @@ Cumulative Mass Error [ME] (%) == 0.00
 Summary Output Interval (s) == 1800.
 Number Summary Values == 7
 Volume In Values [Qi]  == 0.0, 216000.7, 27000.0, 27000.0, 27000.0, 27000.0, 1.9
-Volume Out Values [Qo] == 0.0, 206022.6, 27000.0, 27000.0, 27000.0, 27000.0, 1.9
-Change in Volume Values [dV] == 0.0, 9978.1, 0.0, -0.0, 0.0, -0.0, 0.0
+Volume Out Values [Qo] == 0.0, 206005.6, 27000.0, 27000.0, 27000.0, 27000.0, 1.9
+Change in Volume Values [dV] == 0.0, 9995.1, 0.0, 0.0, -0.0, 0.0, 0.0
 Mass Error Values [ME] (%) == 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
 Number TUFLOW 1D Nodes == 0

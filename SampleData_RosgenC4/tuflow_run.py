@@ -17,12 +17,14 @@ from mannings_hfromQ_downstream import mannings_hfromQ_downstream
 
 #############################################################################################
 # 1 Input variables: case_name, Q_all, create_folders, cell_size
-case_name = 'VanillaC4' # 'VanillaC4', 'InphaseC4', 'OutphaseC4'
+case_name = 'OutphaseC4' # 'VanillaC4', 'InphaseC4', 'OutphaseC4'
 Q_all = np.array([1,2,3,4,5,6,7,8,9,10,12,15,20,30,40,50,60,70,80,90,100])
 create_folders = 1
 cell_size = '1'
 
 #############################################################################################
+if os.path.isdir(os.curdir+'/RosgenC4_'+case_name) == 0:
+    os.mkdir(os.curdir+'/RosgenC4_'+case_name)
 os.chdir(os.curdir+'/RosgenC4_'+case_name)
 timestep = str(float(cell_size) / 4)
 
@@ -82,10 +84,10 @@ for ii in range(0,Q_all.__len__()): #np.array([9,19]): # range(0,Q_all.__len__()
     path_down_xsect = './model/gis/2d_bc_VanillaC4_HT_L.shp'
     path_terrain = './model/grid/'+grid_name
     Q = Q_all[ii]
-    h, A, P, R = mannings_hfromQ_downstream(path_down_xsect, path_terrain, Q, n, S0, 1, 1)
+    path_figure = './results/' + case_name + '_' + Q_num + '_WSE.png'
+    h, A, P, R = mannings_hfromQ_downstream(path_down_xsect, path_terrain, path_figure, Q, n, S0, 1, 1)
     down_WSE = h
-    plt.savefig('./results/'+case_name+'_'+Q_num+'_WSE.png')
-    plt.close(3)
+
 
     # Boundary condition
     bc_file = './bc_dbase/2d_bc_'+case_name+'_'+Q_num+'.csv'

@@ -5,7 +5,7 @@ import _thread
 import matplotlib.pyplot as plt
 import numpy as np
 
-def mannings_hfromQ_downstream(path_down_xsect, path_terrain, Q, n, S0, Execute_StackProfile_3d, figure_xsect):
+def mannings_hfromQ_downstream(path_down_xsect, path_terrain, path_figure, Q, n, S0, Execute_StackProfile_3d, figure_xsect):
     # This python script calculate the water stage at the downstream
     # The required inputs are:
     #   NAME                    - the string that corresponds with the TUFLOW run name from main script
@@ -114,9 +114,10 @@ def mannings_hfromQ_downstream(path_down_xsect, path_terrain, Q, n, S0, Execute_
         #plt.plot([xi1, xi2], [h0, h0], '*')
         plt.xlabel('Lateral Distance (m)')
         plt.ylabel('Elevation (m)')
-        plt.title('Cross-sectional profile at the downstream,\n Q='+str(round(Q))+
+        plt.title('Cross-sectional profile at the downstream,\n Q='+str(round(Q,2))+
                   ' m3/s, h='+str(round(h0,2))+' m')
-        plt.show()
+        plt.savefig(path_figure)
+        plt.close(3)
     h = h0
     print('final h = ' + str(h))
     return h, A, P, R

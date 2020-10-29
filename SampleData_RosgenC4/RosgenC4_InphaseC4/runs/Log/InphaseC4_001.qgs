@@ -1,9 +1,9 @@
 <qgis projectname="TUFLOW" version="1.8.0-Lisboa">
-    <title>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\runs\Log\InphaseC4_001</title>
+    <title>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\runs\Log\InphaseC4_001</title>
     <projectlayers layercount="?">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>00000000000000002</id>
-            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\model\gis\2d_bc_VanillaC4_HT_L.shp</datasource>
+            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\model\gis\2d_bc_VanillaC4_HT_L.shp</datasource>
             <layername>2d_bc_VanillaC4_HT_L (L) {2}</layername>
             <provider encoding="UTF-8">ogr</provider>
             <srs>
@@ -46,7 +46,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>00000000000000003</id>
-            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\model\gis\2d_loc_VanillaC4_L.shp</datasource>
+            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\model\gis\2d_loc_VanillaC4_L.shp</datasource>
             <layername>2d_loc_VanillaC4_L (L) {3}</layername>
             <provider encoding="UTF-8">ogr</provider>
             <srs>
@@ -89,7 +89,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>00000000000000001</id>
-            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\runs\Log\InphaseC4_001_messages.mif</datasource>
+            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\runs\Log\InphaseC4_001_messages.mif</datasource>
             <layername>InphaseC4_001_messages (P) {1}</layername>
             <provider encoding="UTF-8">ogr</provider>
             <srs>
@@ -114,7 +114,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>00000000000000004</id>
-            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\check\001\InphaseC4_001_dom_check.mif</datasource>
+            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\check\001\InphaseC4_001_dom_check.mif</datasource>
             <layername>InphaseC4_001_dom_check (R) {4}</layername>
             <provider encoding="UTF-8">ogr</provider>
             <srs>
@@ -171,7 +171,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>00000000000000005</id>
-            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\model\gis\2d_po_VanillaC4_P.shp</datasource>
+            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\model\gis\2d_po_VanillaC4_P.shp</datasource>
             <layername>2d_po_VanillaC4_P (P) {5}</layername>
             <provider encoding="UTF-8">ogr</provider>
             <srs>
@@ -196,7 +196,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>00000000000000006</id>
-            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\model\gis\2d_po_VanillaC4_L.shp</datasource>
+            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\model\gis\2d_po_VanillaC4_L.shp</datasource>
             <layername>2d_po_VanillaC4_L (L) {6}</layername>
             <provider encoding="UTF-8">ogr</provider>
             <srs>
@@ -239,7 +239,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>00000000000000007</id>
-            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\model\gis\2d_sa_VanillaC4_QT_R.shp</datasource>
+            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\model\gis\2d_sa_VanillaC4_QT_R.shp</datasource>
             <layername>2d_sa_VanillaC4_QT_R (R) {7}</layername>
             <provider encoding="UTF-8">ogr</provider>
             <srs>
@@ -295,9 +295,9 @@
             </renderer-v2>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>00000000000000012</id>
-            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\model\gis\2d_code_VanillaC4_R.SHP</datasource>
-            <layername>2d_code_VanillaC4_R (R) {12}</layername>
+            <id>00000000000000011</id>
+            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\model\gis\2d_code_VanillaC4_R.SHP</datasource>
+            <layername>2d_code_VanillaC4_R (R) {11}</layername>
             <provider encoding="UTF-8">ogr</provider>
             <srs>
                 <spatialrefsys>
@@ -352,9 +352,9 @@
             </renderer-v2>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>00000000000000013</id>
-            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\check\001\InphaseC4_001_po_check.mif</datasource>
-            <layername>InphaseC4_001_po_check (?) {13}</layername>
+            <id>00000000000000012</id>
+            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\check\001\InphaseC4_001_po_check.mif</datasource>
+            <layername>InphaseC4_001_po_check (?) {12}</layername>
             <provider encoding="UTF-8">ogr</provider>
             <srs>
                 <spatialrefsys>
@@ -376,7 +376,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>00000000000000008</id>
-            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\results\001\plot\gis\InphaseC4_001_PLOT_P.mif</datasource>
+            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\results\001\plot\gis\InphaseC4_001_PLOT_P.mif</datasource>
             <layername>InphaseC4_001_PLOT_P (?) {8}</layername>
             <provider encoding="UTF-8">ogr</provider>
             <srs>
@@ -399,7 +399,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>00000000000000009</id>
-            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\results\001\plot\gis\InphaseC4_001_PLOT_L.mif</datasource>
+            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\results\001\plot\gis\InphaseC4_001_PLOT_L.mif</datasource>
             <layername>InphaseC4_001_PLOT_L (?) {9}</layername>
             <provider encoding="UTF-8">ogr</provider>
             <srs>
@@ -421,66 +421,66 @@
             </singlesymbol>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>00000000000000013</id>
+            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\check\001\InphaseC4_001_bcc_check.mif</datasource>
+            <layername>InphaseC4_001_bcc_check (R) {13}</layername>
+            <provider encoding="UTF-8">ogr</provider>
+            <srs>
+                <spatialrefsys>
+                    <proj4></proj4>
+                </spatialrefsys>
+            </srs>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="0.5" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="254,205,95,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                        <layer pass="0" class="MarkerLine" locked="0">
+                            <prop k="interval" v="3"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="placement" v="vertex"/>
+                            <prop k="rotate" v="1"/>
+                        </layer>
+                        <layer pass="0" class="MarkerLine" locked="0">
+                            <prop k="interval" v="3"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="placement" v="firstvertex"/>
+                            <prop k="rotate" v="1"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="marker" name="@0@1">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="254,205,95,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="name" v="rectangle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="1"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="marker" name="@0@2">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="254,205,95,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="name" v="rectangle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="2"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+            </renderer-v2>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>00000000000000014</id>
-            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\check\001\InphaseC4_001_bcc_check.mif</datasource>
-            <layername>InphaseC4_001_bcc_check (R) {14}</layername>
-            <provider encoding="UTF-8">ogr</provider>
-            <srs>
-                <spatialrefsys>
-                    <proj4></proj4>
-                </spatialrefsys>
-            </srs>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
-                <symbols>
-                    <symbol outputUnit="MM" alpha="0.5" type="fill" name="0">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="254,205,95,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="style" v="solid"/>
-                            <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="0.26"/>
-                        </layer>
-                        <layer pass="0" class="MarkerLine" locked="0">
-                            <prop k="interval" v="3"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="placement" v="vertex"/>
-                            <prop k="rotate" v="1"/>
-                        </layer>
-                        <layer pass="0" class="MarkerLine" locked="0">
-                            <prop k="interval" v="3"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="placement" v="firstvertex"/>
-                            <prop k="rotate" v="1"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@0@1">
-                        <layer pass="0" class="SimpleMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="color" v="254,205,95,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="name" v="rectangle"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="size" v="1"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@0@2">
-                        <layer pass="0" class="SimpleMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="color" v="254,205,95,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="name" v="rectangle"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
-                        </layer>
-                    </symbol>
-                </symbols>
-            </renderer-v2>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>00000000000000015</id>
-            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\check\001\InphaseC4_001_sac_check.mif</datasource>
-            <layername>InphaseC4_001_sac_check (R) {15}</layername>
+            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\check\001\InphaseC4_001_sac_check.mif</datasource>
+            <layername>InphaseC4_001_sac_check (R) {14}</layername>
             <provider encoding="UTF-8">ogr</provider>
             <srs>
                 <spatialrefsys>
@@ -535,9 +535,9 @@
             </renderer-v2>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>00000000000000017</id>
-            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\check\001\InphaseC4_001_grd_check.mif</datasource>
-            <layername>InphaseC4_001_grd_check (R) {17}</layername>
+            <id>00000000000000016</id>
+            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\check\001\InphaseC4_001_grd_check.mif</datasource>
+            <layername>InphaseC4_001_grd_check (R) {16}</layername>
             <provider encoding="UTF-8">ogr</provider>
             <srs>
                 <spatialrefsys>
@@ -560,9 +560,9 @@
             </renderer-v2>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>00000000000000018</id>
-            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\check\001\InphaseC4_001_zpt_check.mif</datasource>
-            <layername>InphaseC4_001_zpt_check (P) {18}</layername>
+            <id>00000000000000017</id>
+            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\check\001\InphaseC4_001_zpt_check.mif</datasource>
+            <layername>InphaseC4_001_zpt_check (P) {17}</layername>
             <provider encoding="UTF-8">ogr</provider>
             <srs>
                 <spatialrefsys>
@@ -585,9 +585,9 @@
             </renderer-v2>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>00000000000000019</id>
-            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\check\001\InphaseC4_001_uvpt_check.mif</datasource>
-            <layername>InphaseC4_001_uvpt_check (P) {19}</layername>
+            <id>00000000000000018</id>
+            <datasource>F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\check\001\InphaseC4_001_uvpt_check.mif</datasource>
+            <layername>InphaseC4_001_uvpt_check (P) {18}</layername>
             <provider encoding="UTF-8">ogr</provider>
             <srs>
                 <spatialrefsys>
@@ -639,7 +639,7 @@
 			        </legendlayer>
 			        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked">
 			            <filegroup open="true" hidden="false">
-			                <legendlayerfile isInOverview="0" layerid="00000000000000012" visible="0"/>
+			                <legendlayerfile isInOverview="0" layerid="00000000000000011" visible="0"/>
 			            </filegroup>
 			        </legendlayer>
         </legendgroup>
@@ -666,6 +666,11 @@
 			        </legendlayer>
 			        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked">
 			            <filegroup open="true" hidden="false">
+			                <legendlayerfile isInOverview="0" layerid="00000000000000012" visible="0"/>
+			            </filegroup>
+			        </legendlayer>
+			        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked">
+			            <filegroup open="true" hidden="false">
 			                <legendlayerfile isInOverview="0" layerid="00000000000000013" visible="0"/>
 			            </filegroup>
 			        </legendlayer>
@@ -676,7 +681,7 @@
 			        </legendlayer>
 			        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked">
 			            <filegroup open="true" hidden="false">
-			                <legendlayerfile isInOverview="0" layerid="00000000000000015" visible="0"/>
+			                <legendlayerfile isInOverview="0" layerid="00000000000000016" visible="0"/>
 			            </filegroup>
 			        </legendlayer>
 			        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked">
@@ -687,11 +692,6 @@
 			        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked">
 			            <filegroup open="true" hidden="false">
 			                <legendlayerfile isInOverview="0" layerid="00000000000000018" visible="0"/>
-			            </filegroup>
-			        </legendlayer>
-			        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked">
-			            <filegroup open="true" hidden="false">
-			                <legendlayerfile isInOverview="0" layerid="00000000000000019" visible="0"/>
 			            </filegroup>
 			        </legendlayer>
         </legendgroup>

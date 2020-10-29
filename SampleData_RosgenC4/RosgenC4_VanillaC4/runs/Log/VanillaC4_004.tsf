@@ -1,5 +1,5 @@
-TUFLOW Control File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Vanilla\runs\VanillaC4_004.tcf"
-TUFLOW Log File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Vanilla\runs\Log\VanillaC4_004.tlf"
+TUFLOW Control File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_VanillaC4\runs\VanillaC4_004.tcf"
+TUFLOW Log File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_VanillaC4\runs\Log\VanillaC4_004.tlf"
 TUFLOW Build == Build: 2020-01-AB-iSP-w64
 Solution Scheme == HPC
 Hardware == GPU
@@ -12,10 +12,10 @@ Simulation Start Time (h) == 0.
 Simulation End Time (h) == 6.
 
 Percentage Complete (%) == 100
-Completed Computational Steps == 47615
+Completed Computational Steps == 47616
 
-CPU Time (h) == 0.02595
-Clock Time (h) == 0.02778
+CPU Time (h) == 0.02539
+Clock Time (h) == 0.02722
 Approximate Clock Time Remaining (h) == 0.
 
 HPC HCN Repeated Timesteps == 5  ! HCN is High Control Numbers, eg. Courant Number exceedance
@@ -27,9 +27,9 @@ CHECKs Prior to Simulation == 0
 CHECKs During Simulation == 0
 
 Volume at Start (m3) == 286
-Volume at End (m3) == 4009
+Volume at End (m3) == 4012
 Total Volume In (m3) == 86401
-Total Volume Out (m3) == 82677
+Total Volume Out (m3) == 82674
 Volume Error (m3) == 0
 Volume Error (%) == -0.00  ! % of Volume In + Out
 Cumulative Mass Error [ME] (%) == -0.00
@@ -37,9 +37,9 @@ Cumulative Mass Error [ME] (%) == -0.00
 Summary Output Interval (s) == 1800.
 Number Summary Values == 7
 Volume In Values [Qi]  == 0.0, 57600.4, 7200.0, 7200.0, 7200.0, 7200.0, 0.5
-Volume Out Values [Qo] == 0.0, 53876.9, 7200.0, 7200.1, 7199.9, 7200.0, 0.5
-Change in Volume Values [dV] == 0.0, 3723.5, 0.0, -0.1, 0.1, 0.0, 0.0
-Mass Error Values [ME] (%) == 0.0, 0.0, -0.0, -0.0, 0.0, -0.0, -0.0
+Volume Out Values [Qo] == 0.0, 53873.9, 7200.0, 7200.0, 7200.0, 7200.0, 0.5
+Change in Volume Values [dV] == 0.0, 3726.5, 0.0, -0.0, 0.0, 0.0, -0.0
+Mass Error Values [ME] (%) == 0.0, 0.0, 0.0, -0.0, -0.0, -0.0, -0.0
 
 Number TUFLOW 1D Nodes == 0
 Number TUFLOW 1D Channels == 0

@@ -1,5 +1,5 @@
-TUFLOW Control File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\runs\InphaseC4_020.tcf"
-TUFLOW Log File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Inphase\runs\Log\InphaseC4_020.tlf"
+TUFLOW Control File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\runs\InphaseC4_020.tcf"
+TUFLOW Log File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_InphaseC4\runs\Log\InphaseC4_020.tlf"
 TUFLOW Build == Build: 2020-01-AB-iSP-w64
 Solution Scheme == HPC
 Hardware == GPU
@@ -12,10 +12,10 @@ Simulation Start Time (h) == 0.
 Simulation End Time (h) == 6.
 
 Percentage Complete (%) == 100
-Completed Computational Steps == 122218
+Completed Computational Steps == 122245
 
-CPU Time (h) == 0.08644
-Clock Time (h) == 0.08861
+CPU Time (h) == 0.07785
+Clock Time (h) == 0.08111
 Approximate Clock Time Remaining (h) == 0.
 
 HPC HCN Repeated Timesteps == 12  ! HCN is High Control Numbers, eg. Courant Number exceedance
@@ -27,18 +27,18 @@ CHECKs Prior to Simulation == 0
 CHECKs During Simulation == 0
 
 Volume at Start (m3) == 14540
-Volume at End (m3) == 34513
+Volume at End (m3) == 34569
 Total Volume In (m3) == 1944013
-Total Volume Out (m3) == 1924040
+Total Volume Out (m3) == 1923984
 Volume Error (m3) == 0
 Volume Error (%) == -0.00  ! % of Volume In + Out
 Cumulative Mass Error [ME] (%) == -0.00
 
 Summary Output Interval (s) == 1800.
 Number Summary Values == 7
-Volume In Values [Qi]  == 0.0, 1296001.6, 162000.0, 162000.0, 162000.0, 162000.0, 11.3
-Volume Out Values [Qo] == 0.0, 1276028.6, 162000.0, 162000.0, 162000.0, 162000.0, 11.3
-Change in Volume Values [dV] == 0.0, 19972.9, -0.0, 0.0, 0.0, -0.0, -0.0
+Volume In Values [Qi]  == 0.0, 1296001.7, 162000.0, 162000.0, 162000.0, 162000.0, 11.3
+Volume Out Values [Qo] == 0.0, 1275972.5, 162000.0, 162000.0, 162000.0, 162000.0, 11.3
+Change in Volume Values [dV] == 0.0, 20029.1, 0.0, -0.0, 0.0, -0.0, 0.0
 Mass Error Values [ME] (%) == 0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0
 
 Number TUFLOW 1D Nodes == 0

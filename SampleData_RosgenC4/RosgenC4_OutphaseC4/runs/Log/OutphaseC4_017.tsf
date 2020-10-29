@@ -1,5 +1,5 @@
-TUFLOW Control File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\OutphaseC4_017.tcf"
-TUFLOW Log File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_Outphase\runs\Log\OutphaseC4_017.tlf"
+TUFLOW Control File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\OutphaseC4_017.tcf"
+TUFLOW Log File == "F:\RiverArchitect-tutorial\SampleData_RosgenC4\RosgenC4_OutphaseC4\runs\Log\OutphaseC4_017.tlf"
 TUFLOW Build == Build: 2020-01-AB-iSP-w64
 Solution Scheme == HPC
 Hardware == GPU
@@ -12,10 +12,10 @@ Simulation Start Time (h) == 0.
 Simulation End Time (h) == 6.
 
 Percentage Complete (%) == 100
-Completed Computational Steps == 119477
+Completed Computational Steps == 119486
 
-CPU Time (h) == 0.08414
-Clock Time (h) == 0.08694
+CPU Time (h) == 0.07973
+Clock Time (h) == 0.08222
 Approximate Clock Time Remaining (h) == 0.
 
 HPC HCN Repeated Timesteps == 0  ! HCN is High Control Numbers, eg. Courant Number exceedance
@@ -27,19 +27,19 @@ CHECKs Prior to Simulation == 0
 CHECKs During Simulation == 0
 
 Volume at Start (m3) == 2117
-Volume at End (m3) == 44103
+Volume at End (m3) == 44108
 Total Volume In (m3) == 1332066
-Total Volume Out (m3) == 1290081
+Total Volume Out (m3) == 1290075
 Volume Error (m3) == 0
-Volume Error (%) == -0.00  ! % of Volume In + Out
-Cumulative Mass Error [ME] (%) == -0.00
+Volume Error (%) == 0.00  ! % of Volume In + Out
+Cumulative Mass Error [ME] (%) == 0.00
 
 Summary Output Interval (s) == 1800.
 Number Summary Values == 7
-Volume In Values [Qi]  == 0.0, 887667.0, 111098.0, 111097.9, 111097.9, 111097.9, 7.7
-Volume Out Values [Qo] == 0.0, 845685.4, 111095.0, 111096.8, 111097.8, 111097.9, 7.7
-Change in Volume Values [dV] == 0.0, 41981.5, 3.0, 1.2, 0.1, 0.0, -0.0
-Mass Error Values [ME] (%) == 0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0
+Volume In Values [Qi]  == 0.0, 887667.0, 111097.9, 111097.9, 111097.9, 111097.9, 7.7
+Volume Out Values [Qo] == 0.0, 845675.8, 111097.9, 111097.9, 111097.9, 111097.9, 7.7
+Change in Volume Values [dV] == 0.0, 41991.2, 0.0, 0.0, -0.0, -0.0, 0.0
+Mass Error Values [ME] (%) == 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
 Number TUFLOW 1D Nodes == 0
 Number TUFLOW 1D Channels == 0
