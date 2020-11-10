@@ -58,6 +58,7 @@ def mannings_hfromQ_downstream(path_down_xsect, path_terrain, path_figure, Q, n,
     tol = 0.001
     jj = 0
     J = 1
+    maxIter = 1000
 
     while np.abs(J) > tol:
         ind = []
@@ -68,6 +69,7 @@ def mannings_hfromQ_downstream(path_down_xsect, path_terrain, path_figure, Q, n,
         A = 0
         P = 0
 
+        print(ind)
         for ii in range(0, ind.__len__(), 2):
 
             m1 = (z0[ind[ii]] - z0[ind[ii] + 1]) / (x[ind[ii]] - x[ind[ii] + 1])
@@ -94,6 +96,8 @@ def mannings_hfromQ_downstream(path_down_xsect, path_terrain, path_figure, Q, n,
             J = J_curr
             h0_new = h0 + 0.01
         else:
+            if jj > maxIter:
+                tol = 0.1
             h0_curr = h0
             J = J_curr
             dJdh = (J_curr-J_pre)/(h0_curr-h0_pre)
@@ -106,6 +110,8 @@ def mannings_hfromQ_downstream(path_down_xsect, path_terrain, path_figure, Q, n,
         h0 = h0_new
         h0_pre = h0_curr
         J_pre = J_curr
+
+        jj = jj + 1
 
     print('error =  ', str(J))
     if figure_xsect == 1:
