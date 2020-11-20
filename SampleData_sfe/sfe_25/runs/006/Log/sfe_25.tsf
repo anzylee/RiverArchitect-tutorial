@@ -1,0 +1,55 @@
+TUFLOW Control File == "F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\006\sfe_25.tcf"
+TUFLOW Log File == "F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\006\Log\sfe_25.tlf"
+TUFLOW Build == Build: 2020-01-AB-iSP-w64
+Solution Scheme == HPC
+Hardware == GPU
+GPU Device IDs == 0 
+Computer Name == WATERLAB-DUALBO
+
+Simulation Status == FINISHED
+Simulation Time (h) == 4.
+Simulation Start Time (h) == 0.
+Simulation End Time (h) == 4.
+
+Percentage Complete (%) == 100
+Completed Computational Steps == 43716
+
+CPU Time (h) == 0.0222
+Clock Time (h) == 0.02306
+Approximate Clock Time Remaining (h) == 0.
+
+HPC HCN Repeated Timesteps == 0  ! HCN is High Control Numbers, eg. Courant Number exceedance
+HPC NaN Repeated Timesteps == 0  ! NaN - Not a Number means an instability occurred
+HPC NaN WARNING 2550 == 0
+WARNINGs Prior to Simulation == 0
+WARNINGs During Simulation == 0
+CHECKs Prior to Simulation == 0
+CHECKs During Simulation == 0
+
+Volume at Start (m3) == 38
+Volume at End (m3) == 1569
+Total Volume In (m3) == 19235
+Total Volume Out (m3) == 17704
+Volume Error (m3) == 0
+Volume Error (%) == 0.00  ! % of Volume In + Out
+Cumulative Mass Error [ME] (%) == 0.00
+
+Summary Output Interval (s) == 1800.
+Number Summary Values == 5
+Volume In Values [Qi]  == 0.0, 14426.0, 2404.3, 2404.3, 0.2
+Volume Out Values [Qo] == 0.0, 12895.2, 2404.2, 2404.3, 0.2
+Change in Volume Values [dV] == 0.0, 1530.8, 0.2, 0.0, 0.0
+Mass Error Values [ME] (%) == 0.0, 0.0, 0.0, 0.0, 0.0
+
+Number TUFLOW 1D Nodes == 0
+Number TUFLOW 1D Channels == 0
+
+Active 2D Cells == 29743
+Total 2D Cells == 104000
+Inactive 2D Cells == 74257
+Number 2D Domains == 1
+2D Domain Cell Sizes == 1.
+2D Domain Timestep == 0.125 ! Variable
+
+First Start Map Output (h) == 3.
+Shortest Map Output Interval (s) == 1800.

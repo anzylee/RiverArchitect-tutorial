@@ -79,7 +79,7 @@ class MakeFlowTable:
             if rn[0] == "h":
                 self.logger.info("     -- Found flow depth raster: " + str(rn))
                 try:
-                    _Q_ = float(str(rn).split("h")[1].split(".tif")[0])
+                    _Q_ = fGl.read_Q_str(rn, prefix='h')
                     self.discharges.append(_Q_)
                 except:
                     self.logger.info("ERROR: The Raster name is not coherent with the name conventions. Name correction needed.")
@@ -100,7 +100,7 @@ class MakeFlowTable:
 
     def make_aquatic_condition_xlsx(self, fish_sn):
         # fish_sn == STR -- 4 digits indicating fish species and lifestage
-        self.logger.info("   * using workbook template: " + str(self.xlsx_template).split("\\")[-1])
+        self.logger.info("   * using Fworkbook template: " + str(self.xlsx_template).split("\\")[-1])
         # open relevant workbook
         self.wb_out_name = self.dir_xlsx_out + "{0}_sharea_{1}.xlsx".format(str(self.condition), fish_sn)
         self.open_wb_work_copy()

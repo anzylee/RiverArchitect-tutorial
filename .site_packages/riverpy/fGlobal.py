@@ -359,6 +359,16 @@ def raster2shp(raster_name, out_shp_name=str(), simplify="NO_SIMPLIFY", calculat
     return out_shp_name
 
 
+def read_Q_str(filename, prefix):
+    # where the prefix is something like 'h', 'u', 'va', 'h_interp', etc...
+    q_float = float(str(filename).split(prefix)[1].split(".tif")[0].replace('_', '.'))
+    if np.isnan(q_float):
+        raise Exception('ERROR: cannot parse discharge from filename %s' % filename)
+    else:
+        return q_float
+
+
+
 def read_txt(file_name):
     """ returns numeric data of a comma delimited text file
     INPUT:  file = full path of text (or csv) file
@@ -573,6 +583,10 @@ def write_data(folder_dir, file_name, data):
         line = str(i)+'\n'
         f.write(line)
     print('Data written to: \n' + folder_dir + '\\' + str(file_name) + '.csv')
+
+
+def write_Q_str(num):
+    return f'{num:09.3f}'.replace('.', '_')
 
 
 def write_dict2xlsx(data_dict, file, key_col, val_col, start_row):

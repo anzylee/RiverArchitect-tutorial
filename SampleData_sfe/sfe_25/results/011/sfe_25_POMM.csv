@@ -1,0 +1,6 @@
+"sfe_25","Location","Velocity","Velocity","Velocity","Velocity","Velocity","Velocity","Flow","Flow","Flow","Flow"
+"F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\011\sfe_25.tcf","Time","1","2","3","4","5","6","1","2","3","4"
+"F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\results\011\sfe_25_POMM.csv","Maximum (Extracted from Time Series)",          2.1289,          2.2320,          0.3764,          2.4273,          2.0573,          2.4858,         12.0673,         15.9247,         15.9243,         15.9243
+"","Time of Maximum",          0.0667,          0.0833,          0.1000,          0.1333,          0.3500,          1.5167,          2.0000,          1.2167,          1.9333,          0.7667
+"","Minimum (Extracted From Time Series)",          0.0000,          0.0000,          0.0000,          0.0000,          0.0000,          0.0000,          0.0000,          0.0000,          0.0000,          0.0000
+"","Time of Minimum",          0.0000,          0.0000,          0.0000,          0.0000,          0.0000,          0.0000,          0.0000,          0.0000,          0.0000,          0.0000

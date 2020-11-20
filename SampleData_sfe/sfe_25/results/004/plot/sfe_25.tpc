@@ -1,0 +1,15 @@
+Format Version == 2
+Units == METRIC
+Simulation ID == sfe_25
+Time Series Output Format == CSV 
+
+GIS Plot Layer Points == .\gis\sfe_25_PLOT_P.shp
+GIS Plot Layer Lines == .\gis\sfe_25_PLOT_L.shp
+GIS Plot Layer Regions == .\gis\sfe_25_PLOT_R.shp
+GIS Plot Objects == .\gis\sfe_25_PLOT.csv
+
+NetCDF Time Series == NONE
+
+
+2D Point Velocity [6] == .\csv\sfe_25_2d_V.csv
+2D Line Flow [4] == .\csv\sfe_25_2d_Q.csv

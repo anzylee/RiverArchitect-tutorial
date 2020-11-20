@@ -1,0 +1,97 @@
+
+Build: 2020-01-AB-iSP-w64
+
+Executable: C:\Program Files\Tuflow_w64\TUFLOW_iSP_w64.exe (Copyright BMT WBM Pty Ltd)
+
+Computer Name: WATERLAB-DUALBO
+
+Simulation Started: 2020-Nov-03 14:54
+
+
+Compiler: Intel Fortran v19.0; Single Precision; 64-bit
+
+Hazard Routines ID in TUFLOW_USER_DEFINED.dll: Default Hazard Routines
+
+No Specified Events.
+
+No Specified Scenarios.
+
+No variables defined using Set Variable ==
+
+Initialising Time of Startup Summary == F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\init\sfe_25_start_stats.txt
+
+Trying to open (O) file F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\init\sfe_25_start_stats.txt...OK.  File Unit: 904
+
+Initialising TUFLOW Licence Settings...
+Looking for "C:\Program Files\Tuflow_w64\TUFLOW_Licence_Settings.lcf"...not found.
+Looking for "C:\ProgramData\TUFLOW\TUFLOW_Licence_Settings.lcf"...not found.
+Looking for "C:\BMT_WBM\TUFLOW_Licence_Settings.lcf"...not found.
+Looking for "C:\BMT_WBM\TUFLOW_Dongle_Settings.dcf"...not found.
+
+No TUFLOW licence Settings files found.  Default settings applied.
+WIBU Retry Time == 60  ! Seconds.  Values less than 1 are set to 1.  Default = 60.
+WIBU Retry Count == 0  ! Number of times to retry for a licence at start of simulation.  Use -1 for indefinitely.  Default = 0.
+WIBU Dongles Only == OFF  ! If set to ON, searches for WIBU dongles only.  Default is OFF.
+
+Simulations Log Folder == C:\ProgramData\TUFLOW\log\waterlab\  ! Path or URL to global simulations log folder.  Default is C:\ProgramData\TUFLOW\log\waterlab
+
+Searching for a BMT WIBU Hardware Licence...
+
+TUFLOW Engine          Dongle 4918157  Expiry Indefinite  Local   1 of   1 (0 remaining)
+TUFLOW Threads (1)     Dongle 4918157  Expiry Indefinite  Local   1 of   4 (3 remaining)
+
+Trying to open (A) file F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\init\_ TUFLOW Simulations.log...OK.  File Unit: 905
+...Closed File Unit: 905
+
+Trying to open (A) file C:\ProgramData\TUFLOW\log\waterlab\_ All TUFLOW Simulations.log...OK.  File Unit: 905
+...Closed File Unit: 905
+
+Detected 12 CPUs.
+CPU limiting not activated for WIBU dongles.
+
+Setting up dynamic arrays...
+
+Reading .tcf File .. F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\init\sfe_25.tcf
+
+Trying to open (O) file F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\init\sfe_25.wor...OK.  File Unit: 905
+
+Trying to open (O) file F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\init\sfe_25.qgs...OK.  File Unit: 906
+Opening GIS Layer: F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\init\sfe_25_messages.shp
+GIS Layer assigned ID of 1
+
+Trying to open (SB) file F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\init\sfe_25_messages_P.shp...OK.  File Unit: 907
+
+Trying to open (SE) file F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\init\sfe_25_messages_P.shp...OK.  File Unit: 908
+
+Trying to open (SB) file F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\init\sfe_25_messages_P.shx...OK.  File Unit: 909
+
+Trying to open (SE) file F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\init\sfe_25_messages_P.shx...OK.  File Unit: 910
+
+Trying to open (O) file F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\init\sfe_25_messages_P.prj...OK.  File Unit: 911
+
+Trying to open (BO) file F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\init\sfe_25_messages_P.dbf...OK.  File Unit: 912
+...Closed File Unit: 911
+...Closed File Unit: 909
+
+Trying to open (O) file F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\init\sfe_25_messages.csv...OK.  File Unit: 909
+
+Home Folder: F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\init\
+
+Free-Form Input Assumed...
+
+
+No Event Sources found.
+
+Start Time (h):.......     0.000
+Finish Time (h):......     1.000
+
+Primary 2D timestep (the largest) set to 1. secs
+Domain: Domain_001    Original Timestep:    1.00  Iterations:   1  Adopted Timestep:    1.00
+
+NoXY: ERROR 0045 - Map Output Interval is not specified.
+Wiki Link: https://wiki.tuflow.com/index.php?title=TUFLOW_Message_0045
+
+Closing any unclosed GIS layers...
+
+Closing GIS Layer 1 [F:\tuflow-wf_python3\output_folder\sfe_25_tuflow\runs\init\sfe_25_messages.shp]...
+
