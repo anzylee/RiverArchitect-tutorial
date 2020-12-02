@@ -115,7 +115,7 @@ class CHSI:
                     area = 0.0
                     try:
                         arcpy.AddField_management(shp_name, "F_AREA", "FLOAT", 9)
-                        arcpy.CalculateGeometryAttributes_management(shp_name, geometry_property=[["F_AREA", "AREA"]],
+                        arcpy.CalculateGeometryAttributes_management(shp_name, geometry_property=[["F_AREA", "AREA_GEODESIC"]],
                                                                      area_unit=self.area_unit)
                         self.logger.info("         ... summing up area ...")
                         if apply_weighing:
@@ -143,10 +143,10 @@ class CHSI:
                     self.logger.info("       * writing Usable Area to workbook ...")
                     for q in Q.keys():
                         try:
-                            q_str = str(csi).split(fish_shortname)[1].split('.tif')[0]
+                            q_str = fGl.read_Q_str(str(csi),prefix=fish_shortname)
                         except:
                             q_str = str(csi).split(fish_shortname)[1]
-                        if str(int(q)) == q_str:
+                        if str(fGl.write_Q_str(q)) == str(fGl.write_Q_str(q_str)):
                             self.logger.info(
                                 "         Discharge: " + str(q) + self.u_discharge + " and Usable Area: " + str(
                                     area) + " square " + self.u_length)
@@ -262,15 +262,15 @@ class CHSI:
                     # find dsi-rasters and match according velocity rasters
                     if str(ras)[0:3] == "dsi":
                         try:
-                            q = int(str(ras).split(fish_shortname)[-1])
+                            q = fGl.read_Q_str(str(ras),prefix=fish_shortname)
                         except:
-                            q = int(str(ras).split(fish_shortname)[-1].split('.tif')[0])
+                            q = fGl.read_Q_str(str(ras),prefix='')
                         self.logger.info("    --- combining rasters for Q = " + str(q) + " (" + self.combine_method + ") ...")
 
                         # load inundation area Raster (wetted area)
                         try:
                             self.logger.info("        * loading innundated area raster ...")
-                            h_ras_name = "h%0000006d.tif" % int(q)
+                            h_ras_name = f'h{fGl.write_Q_str(q)}.tif'
                             if boundary_shp.__len__() > 0:
                                 self.logger.info("        * clipping to boundary ...")
                                 inundation_ras = Con(~IsNull(boundary_ras), arcpy.Raster(self.path_condition + h_ras_name))
@@ -461,7 +461,8 @@ class HHSI:
                 curve_data = self.fish.get_hsi_curve(species, ls, "h")
                 self.logger.info("      - OK")
                 for rh in self.ras_h:
-                    self.logger.info("   -> DISCHARGE: " + str(self.flow_dict_h[str(rh)]))
+                    _Q_ = fGl.read_Q_str(rh,prefix='h')
+                    self.logger.info("   -> DISCHARGE: " + str(_Q_))
                     rh_ras = arcpy.Raster(self.dir_in_geo + rh)
 
                     self.logger.info("    > Raster calculation: Depth HSI ...")
@@ -470,7 +471,7 @@ class HHSI:
                         rh_ras = __temp_h_ras__
                     ras_out = self.nested_con_raster_calc(rh_ras, curve_data)
                     self.logger.info("      - OK")
-                    ras_name = "dsi_" + str(species[0:2]).lower() + str(ls)[0:2] + str(self.flow_dict_h[str(rh)]) + ".tif"
+                    ras_name = "dsi_" + str(species[0:2]).lower() + str(ls)[0:2] + fGl.write_Q_str(_Q_) + ".tif"
                     self.logger.info("    > Saving: " + self.path_hsi + ras_name + " ...")
                     try:
                         ras_out.save(self.path_hsi + ras_name)
@@ -483,7 +484,8 @@ class HHSI:
                 curve_data = self.fish.get_hsi_curve(species, ls, "u")
                 self.logger.info("      - OK")
                 for ru in self.ras_u:
-                    self.logger.info("   -> DISCHARGE: " + str(self.flow_dict_u[str(ru)]))
+                    _Q_ = fGl.read_Q_str(ru, prefix='u')
+                    self.logger.info("   -> DISCHARGE: " + str(_Q_))
                     rh_ras = arcpy.Raster(self.dir_in_geo + ru)
                     self.logger.info("    > Raster calculation: Velocity HSI  ... ")
                     if boundary_shp.__len__() > 0:
@@ -491,7 +493,7 @@ class HHSI:
                         rh_ras = __temp_h_ras__
                     ras_out = self.nested_con_raster_calc(rh_ras, curve_data)
                     self.logger.info("      - OK")
-                    ras_name = "vsi_" + str(species[0:2]).lower() + str(ls)[0:2] + str(self.flow_dict_u[str(ru)]) + ".tif"
+                    ras_name = "vsi_" + str(species[0:2]).lower() + str(ls)[0:2] + fGl.write_Q_str(_Q_) + ".tif"
                     self.logger.info(
                         "    > Saving: " + self.path_hsi + ras_name + " ...")
                     try:
