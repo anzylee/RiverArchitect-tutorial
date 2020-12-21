@@ -219,7 +219,8 @@ class ConnectivityAnalysis:
                 for root, subdirs, files in os.walk(chsi_dir):
                     for filename in files:
                         if self.lifestage_code in filename and filename.endswith(".tif"):
-                            q = int(filename.split(self.lifestage_code)[1].replace(".tif", ""))
+                            #q = int(filename.split(self.lifestage_code)[1].replace(".tif", ""))
+                            q = fGl.read_Q_str(filename, prefix=self.lifestage_code)
                             if self.q_low <= q <= self.q_high:
                                 self.Q_chsi_dict[q] = os.path.join(chsi_dir, filename)
                 if len(self.Q_chsi_dict) < len(self.discharges):

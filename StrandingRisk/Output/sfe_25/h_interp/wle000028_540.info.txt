@@ -1,0 +1,4 @@
+Interpolation method: IDW
+Time created: 2020-12-07 21:22:01
+Depth raster input: F:/RiverArchitect-tutorial/01_Conditions/sfe_25/h000028_540.tif
+DEM raster input: F:/RiverArchitect-tutorial/01_Conditions/sfe_25/dem.tif
