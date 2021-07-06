@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 #############################################################################################
 # 1 Input variables: case_name, create_folders, copy_depths_velocities, copy_terrain,
 #                    [create_dmean, dmean], Q_all
-case_name = 'InphaseC4' # 'VanillaC4', 'InphaseC4', 'OutphaseC4'
+case_name = 'OutphaseC4' # 'VanillaC4', 'InphaseC4', 'OutphaseC4'
 create_folders = 1
 copy_depths_velocities = 1
 copy_terrain = 1
@@ -53,10 +53,11 @@ for ii in range(0,Q_all.__len__()): #np.array([9,19]): # range(0,Q_all.__len__()
         zero1 = zero1 + '0'
     Q_num = zero1 + s
 
-    s = str(Q_all[ii])
+    s = f'{Q_all[ii]:09.3f}'
+    s = s.replace('.', '_')
     s_len = s.__len__()
 
-    for ind in range(0,6-s_len):
+    for ind in range(0, 10 - s_len):
         zero2 = zero2 + '0'
     Q_value = zero2 + s
 
